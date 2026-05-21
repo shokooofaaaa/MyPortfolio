@@ -21,7 +21,6 @@ namespace MyPortfolio.Infrastructure.Context
         public DbSet<ContactMessageEntity> ContactMessages { get; set; }
         public DbSet<AboutEntity> Abouts { get; set; }
 
-        public DbSet<UserEntity> users { get; set; }
         public DbSet<LanguageEntity> Languages { get; set; }
        
 

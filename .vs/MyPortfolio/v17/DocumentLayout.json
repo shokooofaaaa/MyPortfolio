@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\portfolio\\MyPortfolio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|d:\\portfolio\\myportfolio\\myportfolio.infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|solutionrelative:myportfolio.infrastructure\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\common\\extention\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\common\\extention\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -470,7 +474,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 107,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -490,7 +494,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "MyPortfolio.Infrastructure\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T18:29:22.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "IContext.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Contract\\IContext.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Contract\\IContext.cs",
@@ -498,12 +515,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Contract\\IContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:21:26.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:21:26.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "AboutViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\AboutViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\AboutViewModel.cs",
@@ -511,12 +527,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\AboutViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:19:47.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:19:47.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\LoginViewModel.cs",
@@ -524,12 +539,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:19:35.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:19:35.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "PagedListViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\PagedListViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\PagedListViewModel.cs",
@@ -537,12 +551,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\PagedListViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:19:32.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:19:32.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ProjectViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ProjectViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\ProjectViewModel.cs",
@@ -550,12 +563,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\ProjectViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:19:14.015Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:19:14.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "AboutEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\AboutEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\AboutEntity.cs",
@@ -563,12 +575,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\AboutEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:19:01.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:19:01.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "ProjectEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ProjectEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\ProjectEntity.cs",
@@ -576,12 +587,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\ProjectEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:18:37.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:18:37.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "AboutController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AboutController.cs",
@@ -589,12 +599,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AboutController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:14:09.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:14:09.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProfileController.cs",
@@ -602,12 +611,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProfileController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T17:12:29.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:12:29.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Account\\Login.cshtml",
@@ -615,12 +623,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:12:07.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:12:07.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Edit.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Edit.cshtml",
@@ -628,12 +635,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:11:21.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:11:21.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
@@ -641,12 +647,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:11:18.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:11:18.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -654,12 +659,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:08:11.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:08:11.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -667,12 +671,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:08:08.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:08:08.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "About.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\About.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\About.cshtml",
@@ -680,12 +683,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\About.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:08:05.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:08:05.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -693,12 +695,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:05:09.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:05:09.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 101,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Shared\\Error.cshtml",
@@ -706,12 +707,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:05:07.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:05:07.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 102,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\_ViewImports.cshtml",
@@ -719,12 +719,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:05:04.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:05:04.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 103,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\_ViewStart.cshtml",
@@ -732,12 +731,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T17:04:52.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T17:04:52.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SkillDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\SkillDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\SkillDto.cs",
@@ -745,12 +743,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\SkillDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T15:39:20.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T15:39:20.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ProjectDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ProjectDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\ProjectDto.cs",
@@ -758,12 +755,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\ProjectDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T15:39:09.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T15:39:09.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ProfileDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ProfileDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\ProfileDto.cs",
@@ -771,12 +767,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\ProfileDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T15:38:59.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T15:38:59.908Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\LoginDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\LoginDto.cs",
@@ -784,12 +779,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T15:38:51.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T15:38:51.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AboutDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\AboutDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\AboutDto.cs",
@@ -797,12 +791,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\AboutDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T15:38:43.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T15:38:43.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\ContactMessage\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\ContactMessage\\Index.cshtml",
@@ -810,12 +803,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\ContactMessage\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T15:24:02.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T15:24:02.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "contactMessage.css",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\contactMessage.css",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\contactMessage.css",
@@ -823,12 +815,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\contactMessage.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-21T14:41:09.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T14:41:09.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "ContactMessageController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ContactMessageController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ContactMessageController.cs",
@@ -836,12 +827,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ContactMessageController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T14:33:01.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T14:33:01.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "_ContactMessage.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_ContactMessage.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_ContactMessage.cshtml",
@@ -849,12 +839,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_ContactMessage.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T14:22:22.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T14:22:22.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 105,
               "Title": "20260521141518_AddedCreatedAtInContactMessageEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260521141518_AddedCreatedAtInContactMessageEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260521141518_AddedCreatedAtInContactMessageEntity.cs",
@@ -862,12 +851,11 @@
               "RelativeToolTip": "MyPortfolio.Infrastructure\\Migrations\\20260521141518_AddedCreatedAtInContactMessageEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T14:15:19.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T14:15:19.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ContactMessageService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ContactMessage\\ContactMessageService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\ContactMessage\\ContactMessageService.cs",
@@ -875,12 +863,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\ContactMessage\\ContactMessageService.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T13:57:23.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T13:57:23.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ContactMessageViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ContactMessageViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\ContactMessageViewModel.cs",
@@ -888,12 +875,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\ContactMessageViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T13:51:26.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T13:51:26.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IContactMessageService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ContactMessage\\IContactMessageService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\ContactMessage\\IContactMessageService.cs",
@@ -901,12 +887,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\ContactMessage\\IContactMessageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T13:46:43.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T13:46:43.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IProjectService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\IProjectService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\IProjectService.cs",
@@ -914,12 +899,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\IProjectService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T13:44:23.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T13:44:23.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ContactMessageDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ContactMessageDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\ContactMessageDto.cs",
@@ -927,12 +911,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\ContactMessageDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T13:43:35.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T13:43:35.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\BaseEntity.cs",
@@ -940,12 +923,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T13:41:08.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T13:41:08.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "ContactMessageEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ContactMessageEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\ContactMessageEntity.cs",
@@ -953,12 +935,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\ContactMessageEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T12:11:44.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T12:11:44.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "language.css",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\language.css",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\language.css",
@@ -966,12 +947,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\language.css",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAE0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-21T08:11:26.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T08:11:26.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 94,
               "Title": "_Language.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Language.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Language.cshtml",
@@ -979,12 +959,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Language.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T07:53:41.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T07:53:41.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Create.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Create.cshtml",
@@ -992,12 +971,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T07:29:22.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T07:29:22.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Edit.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Edit.cshtml",
@@ -1005,12 +983,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T07:28:39.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T07:28:39.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Edit.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Edit.cshtml",
@@ -1018,12 +995,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T07:28:09.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T07:28:09.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Index.cshtml",
@@ -1031,12 +1007,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Index.cshtml",
               "ViewState": "AgIAAHQAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-21T07:09:56.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T07:09:56.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AccountController.cs",
@@ -1044,12 +1019,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T07:02:46.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T07:02:46.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\DashboardController.cs",
@@ -1057,12 +1031,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T07:02:32.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T07:02:32.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "LanguageController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\LanguageController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\LanguageController.cs",
@@ -1070,12 +1043,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\LanguageController.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T06:54:22.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T06:54:22.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "DashboardViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\DashboardViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\DashboardViewModel.cs",
@@ -1083,12 +1055,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\DashboardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T10:36:17.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T10:36:17.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "project.css",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\project.css",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\project.css",
@@ -1096,12 +1067,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\project.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-20T09:30:07.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T09:30:07.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "skill.css",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\skill.css",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\skill.css",
@@ -1109,12 +1079,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\skill.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-20T06:45:33.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T06:45:33.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "profile.css",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\profile.css",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\profile.css",
@@ -1122,12 +1091,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\profile.css",
               "ViewState": "AgIAAC4AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-19T12:32:27.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T12:32:27.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 95,
               "Title": "_Profile.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Profile.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Profile.cshtml",
@@ -1135,12 +1103,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Profile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-19T12:21:03.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T12:21:03.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "LanguageService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Language\\LanguageService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Language\\LanguageService.cs",
@@ -1148,12 +1115,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Language\\LanguageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:22:35.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T08:22:35.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ILanguageService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Language\\ILanguageService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Language\\ILanguageService.cs",
@@ -1161,12 +1127,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Language\\ILanguageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:19:47.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T08:19:47.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "LanguageDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\LanguageDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\LanguageDto.cs",
@@ -1174,12 +1139,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\LanguageDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:18:01.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T08:18:01.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 106,
               "Title": "20260519081626_ChangeTypeOfLevelToIntInLanguageEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519081626_ChangeTypeOfLevelToIntInLanguageEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260519081626_ChangeTypeOfLevelToIntInLanguageEntity.cs",
@@ -1191,7 +1155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "SkillViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\SkillViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\SkillViewModel.cs",
@@ -1199,12 +1163,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\SkillViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:15:09.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T08:15:09.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 107,
               "Title": "20260519081402_IsDeleteAddedToLanguageEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519081402_IsDeleteAddedToLanguageEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260519081402_IsDeleteAddedToLanguageEntity.cs",
@@ -1216,7 +1179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "SkillEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\SkillEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\SkillEntity.cs",
@@ -1224,12 +1187,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\SkillEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T08:12:50.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T08:12:50.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 108,
               "Title": "20260519072232_SetDescriptionNullableInEducationEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519072232_SetDescriptionNullableInEducationEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260519072232_SetDescriptionNullableInEducationEntity.cs",
@@ -1241,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "LanguageEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\LanguageEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\LanguageEntity.cs",
@@ -1249,12 +1211,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\LanguageEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T16:29:35.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T16:29:35.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "LanguageViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\LanguageViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\LanguageViewModel.cs",
@@ -1262,12 +1223,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\LanguageViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T16:29:29.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T16:29:29.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 109,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\User\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\User\\Controllers\\HomeController.cs",
@@ -1279,7 +1239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Create.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Create.cshtml",
@@ -1287,12 +1247,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T15:16:51.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:16:51.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Edit.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Edit.cshtml",
@@ -1300,12 +1259,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T15:14:54.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:14:54.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Index.cshtml",
@@ -1313,12 +1271,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Index.cshtml",
               "ViewState": "AgIAAGgAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T15:08:11.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:08:11.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
@@ -1326,12 +1283,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T15:07:33.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:07:33.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "EducationController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\EducationController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\EducationController.cs",
@@ -1339,12 +1295,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\EducationController.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T14:57:20.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T14:57:20.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "EducationService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Education\\EducationService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Education\\EducationService.cs",
@@ -1352,12 +1307,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Education\\EducationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:57:06.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T13:57:06.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IEducationService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Education\\IEducationService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Education\\IEducationService.cs",
@@ -1365,12 +1319,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Education\\IEducationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:53:54.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T13:53:54.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EducationDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\EducationDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\EducationDto.cs",
@@ -1378,12 +1331,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\EducationDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:51:14.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T13:51:14.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "EducationViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\EducationViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\EducationViewModel.cs",
@@ -1391,12 +1343,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\EducationViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:49:56.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T13:49:56.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 111,
               "Title": "20260518134846_NullableDateTimeANDAddDescriptionToEducationEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260518134846_NullableDateTimeANDAddDescriptionToEducationEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260518134846_NullableDateTimeANDAddDescriptionToEducationEntity.cs",
@@ -1408,7 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "EducationEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\EducationEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\EducationEntity.cs",
@@ -1416,12 +1367,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\EducationEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T13:41:38.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T13:41:38.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "_About.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_About.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_About.cshtml",
@@ -1429,12 +1379,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_About.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T11:52:30.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T11:52:30.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "site.css",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\site.css",
@@ -1442,12 +1391,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAGwAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-18T11:48:56.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T11:48:56.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "style.css",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\style.css",
@@ -1455,12 +1403,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\style.css",
               "ViewState": "AgIAABUBAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-18T11:33:18.418Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T11:33:18.418Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ProfileService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Profile\\ProfileService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Profile\\ProfileService.cs",
@@ -1468,12 +1415,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Profile\\ProfileService.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:04:20.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T11:04:20.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "ProfileViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ProfileViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\ProfileViewModel.cs",
@@ -1481,12 +1427,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\ProfileViewModel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:04:01.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T11:04:01.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "ProfileEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ProfileEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\ProfileEntity.cs",
@@ -1494,12 +1439,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\ProfileEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T11:03:13.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T11:03:13.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 112,
               "Title": "20260518103815_NullableDateTimeInWOrdExprienceEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260518103815_NullableDateTimeInWOrdExprienceEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260518103815_NullableDateTimeInWOrdExprienceEntity.cs",
@@ -1511,7 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "WorkExperienceEntity.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\WorkExperienceEntity.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\WorkExperienceEntity.cs",
@@ -1519,12 +1463,11 @@
               "RelativeToolTip": "MyPortfolio.Domain\\Entities\\WorkExperienceEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T08:07:12.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T08:07:12.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Controllers\\HomeController.cs",
@@ -1532,12 +1475,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Controllers\\HomeController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAAFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T06:31:54.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T06:31:54.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "_Skill.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Skill.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Skill.cshtml",
@@ -1545,12 +1487,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Skill.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T06:15:18.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T06:15:18.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Shared\\_Layout.cshtml",
@@ -1558,12 +1499,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T06:03:43.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T06:03:43.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "workAndeducation.css",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\workAndeducation.css",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\workAndeducation.css",
@@ -1571,12 +1511,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\workAndeducation.css",
               "ViewState": "AgIAAG0AAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-18T06:03:03.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T06:03:03.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "_Education.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Education.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Education.cshtml",
@@ -1584,12 +1523,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Education.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T06:00:43.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T06:00:43.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "_Project.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Project.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Project.cshtml",
@@ -1597,12 +1535,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Project.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T05:40:04.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:40:04.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "_Experience.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Experience.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Experience.cshtml",
@@ -1610,12 +1547,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Experience.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T05:39:20.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:39:20.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "PortfolioViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\PortfolioViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\PortfolioViewModel.cs",
@@ -1623,12 +1559,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\PortfolioViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T05:36:48.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:36:48.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Index.cshtml",
@@ -1636,12 +1571,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T05:36:06.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T05:36:06.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ISkillService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Skill\\ISkillService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Skill\\ISkillService.cs",
@@ -1649,12 +1583,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Skill\\ISkillService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T19:50:00.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T19:50:00.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IProfileService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Profile\\IProfileService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Profile\\IProfileService.cs",
@@ -1662,12 +1595,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Profile\\IProfileService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T19:49:57.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T19:49:57.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IAboutService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Abouts\\IAboutService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Abouts\\IAboutService.cs",
@@ -1675,12 +1607,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Abouts\\IAboutService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T19:49:21.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T19:49:21.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AboutService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Abouts\\AboutService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Abouts\\AboutService.cs",
@@ -1688,12 +1619,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Abouts\\AboutService.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAA0wCQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T19:49:17.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T19:49:17.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ProjectService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ProjectService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\ProjectService.cs",
@@ -1701,12 +1631,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\ProjectService.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T19:31:32.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T19:31:32.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SkillService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Skill\\SkillService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Skill\\SkillService.cs",
@@ -1714,12 +1643,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\Skill\\SkillService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T19:30:51.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T19:30:51.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Edit.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Edit.cshtml",
@@ -1727,12 +1655,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T18:18:52.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T18:18:52.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 114,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\appsettings.json",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\appsettings.json",
@@ -1744,7 +1671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 104,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Program.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Program.cs",
@@ -1752,12 +1679,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Program.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T18:11:23.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T18:11:23.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
@@ -1765,12 +1691,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T17:59:26.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T17:59:26.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 115,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Create.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Create.cshtml",
@@ -1782,7 +1707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 113,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Edit.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Edit.cshtml",
@@ -1794,7 +1719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 110,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Index.cshtml",
@@ -1806,7 +1731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "IWorkExperienceService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\WorkExperience\\IWorkExperienceService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\WorkExperience\\IWorkExperienceService.cs",
@@ -1814,25 +1739,24 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\WorkExperience\\IWorkExperienceService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T16:13:47.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T16:13:47.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Number.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Common\\Extention\\Number.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Common\\Extention\\Number.cs",
               "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Common\\Extention\\Number.cs",
               "RelativeToolTip": "MyPortfolio.Application\\Common\\Extention\\Number.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-17T10:29:03.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Time.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Common\\Extention\\Time.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Common\\Extention\\Time.cs",
@@ -1840,12 +1764,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Common\\Extention\\Time.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T10:23:52.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T10:23:52.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "WorkExperienceService.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\WorkExperience\\WorkExperienceService.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\WorkExperience\\WorkExperienceService.cs",
@@ -1853,12 +1776,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\Services\\WorkExperience\\WorkExperienceService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T09:49:22.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T09:49:22.933Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "WorkExperienceDto.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\WorkExperienceDto.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\WorkExperienceDto.cs",
@@ -1866,12 +1788,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\WorkExperienceDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T08:34:04.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:34:04.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "WorkExperienceViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\WorkExperienceViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\WorkExperienceViewModel.cs",
@@ -1879,12 +1800,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\WorkExperienceViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T08:31:15.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:31:15.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Create.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Create.cshtml",
@@ -1892,12 +1812,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T08:27:28.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:27:28.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "SkillController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\SkillController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\SkillController.cs",
@@ -1905,12 +1824,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\SkillController.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T08:26:15.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:26:15.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "SkillIndexViewModel.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\SkillIndexViewModel.cs",
               "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\SkillIndexViewModel.cs",
@@ -1918,12 +1836,11 @@
               "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\SkillIndexViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T08:25:28.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:25:28.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Index.cshtml",
@@ -1931,12 +1848,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T08:22:57.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:22:57.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Index.cshtml",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Index.cshtml",
@@ -1944,12 +1860,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Index.cshtml",
               "ViewState": "AgIAAGYAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T08:22:53.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:22:53.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "WorkExperienceController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\WorkExperienceController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\WorkExperienceController.cs",
@@ -1957,12 +1872,11 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\WorkExperienceController.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T08:19:00.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:19:00.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "ProjectController.cs",
               "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProjectController.cs",
               "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProjectController.cs",
@@ -1970,8 +1884,7 @@
               "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProjectController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T08:18:57.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T08:18:57.986Z"
             }
           ]
         }
