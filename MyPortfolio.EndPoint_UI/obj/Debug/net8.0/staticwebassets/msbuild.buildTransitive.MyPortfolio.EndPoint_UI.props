@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyPortfolio.EndPoint_UI.props" />
+</Project>

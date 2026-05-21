@@ -1,0 +1,32 @@
+﻿@model MyPortfolio.Application.ViewModels.ProfileViewModel
+
+<form method="post" enctype="multipart/form-data">
+
+    <div>
+        <label asp-for="FullNameEn"> نام انگلیسی</label>
+        <input asp-for="FullNameEn" type="text" />
+    </div>
+
+    <div>
+        <label asp-for="FullNameFa">نام فارسی </label>
+        <input asp-for="FullNameFa" type="text" />
+    </div>
+
+    <div>
+        <label asp-for="JobTitleEn">عنوان شغلی به انگلیسی</label>
+        <input asp-for="JobTitleEn" type="text" />
+    </div>
+
+    <div>
+        <label asp-for="JobTitleFa">عنوان شغلی به فارسی</label>
+        <input asp-for="JobTitleFa" type="text" />
+    </div>
+
+    <div>
+        <label>انتخاب عکس پروفایل:</label>
+        <input name="imageFile" type="file" />
+    </div>
+
+    <button type="submit">ذخیره</button>
+
+</form>

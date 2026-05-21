@@ -1,0 +1,27 @@
+﻿@model MyPortfolio.Application.ViewModels.ProfileViewModel
+
+<main>
+<div class="main-container">
+
+    <div class="avatar-wrapper">
+        @if (!string.IsNullOrEmpty(Model.ImageName))
+        {
+            <img src="~/images/profile/@Model.ImageName" alt="profile" class="profile-img" />
+        }
+        else
+        {
+            <img src="~/images/avatar.jpg" alt="default" class="profile-img" />
+        }
+        
+        </div>
+
+    
+
+<div class="profile-info">
+    <h1 class="full-name"> @Model.FullNameFa </h1>
+    <h3 class="job-title">@Model.JobTitleFa</h3>
+  
+    </div>
+</div>
+</main>
+

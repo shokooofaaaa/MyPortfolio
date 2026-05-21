@@ -1,0 +1,33 @@
+﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.LanguageViewModel>
+
+
+<section id="languages" class="language-section">
+    <h3 class="section-title">زبان ها</h3>
+
+    <div class="language-grid">
+        
+        
+           
+            
+                <div class="language-card">
+
+                    @foreach (var item in Model.Items)
+                    {
+                        <div class="language-item">
+                            <div class="language-header">
+                                <span class="language-name">@item.Name</span>
+                                <span class="language-percent">@item.Level%</span>
+                            </div>
+
+                            <div class="language-progress">
+                                <div class="language-progress-bar" style="width:@item.Level%"></div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            
+        
+    </div>
+</section>
+

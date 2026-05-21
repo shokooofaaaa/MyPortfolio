@@ -1,0 +1,43 @@
+﻿@model MyPortfolio.Application.ViewModels.WorkExperienceViewModel
+
+<h2>ایجاد تجربه جدید</h2>
+
+<form asp-area="Admin" asp-action="Create" asp-controller="WorkExperience" method="post">
+
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title"></span>
+    </div>
+
+    <div class="mb-3">
+
+
+        <label asp-for="CompanyName"></label>
+        <input asp-for="CompanyName" class="form-control" />
+        <span asp-validation-for="CompanyName"></span>
+    </div>
+    <div class="form-group">
+        <label>تاریخ شروع</label>
+        <input type="text" name="DateOfStart" class="form-control" placeholder="1403/01/15" />
+    </div>
+
+    <div class="form-group">
+        <label>تاریخ پایان</label>
+        <input type="text" name="DateOfEnd" class="form-control" placeholder="1403/06/20" />
+    </div>
+
+
+    <div class="mb-3">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <button class="btn btn-success">
+        ذخیره
+    </button>
+
+</form>
+

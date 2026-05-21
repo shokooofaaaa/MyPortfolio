@@ -1,0 +1,35 @@
+﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.WorkExperienceViewModel>
+
+
+
+
+<section class="resume-section mt-5">
+    <h3 class="section-title mb-4">سابقه کار</h3>
+   
+    <div class="timeline-card">
+        @foreach (var item in Model.Items)
+        {
+
+        <div class="timeline-item">
+            <div class="timeline-badge"></div>
+            <div class="timeline-content">
+
+                   
+                        <span class="timeline-title">@item.Title</span>
+                        <span class="timeline-period">@item.DateOfStart - @item.DateOfEnd</span>
+                    
+                
+                <div class="timeline-subtitle">@item.CompanyName</div>
+                <ul class="timeline-list">
+                    <li>@item.Description</li>
+                  
+                </ul>
+            </div>
+        </div>
+        
+            
+        
+        }
+    </div>
+</section>
+

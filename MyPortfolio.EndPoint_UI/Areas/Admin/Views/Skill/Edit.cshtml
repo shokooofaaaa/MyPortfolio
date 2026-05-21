@@ -1,0 +1,24 @@
+﻿@model MyPortfolio.Application.ViewModels.SkillViewModel
+
+<form asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Level" class="form-label"></label>
+        <textarea asp-for="Level" class="form-control"></textarea>
+        <span asp-validation-for="Level" class="text-danger"></span>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
+    <a asp-action="Index" class="btn btn-secondary">بازگشت</a>
+</form>
+

@@ -1,0 +1,141 @@
+﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.ProjectViewModel>
+
+
+@{
+    ViewData["Title"] = "مدیریت پروژه‌ها";
+}
+
+<div class="container mt-5" dir="rtl">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">مدیریت پروژه‌ها</h2>
+
+        <a asp-controller="Project"
+           asp-action="Create"
+           class="btn btn-success px-4">
+            + افزودن پروژه جدید
+        </a>
+    </div>
+
+    @if (Model == null || !Model.Items.Any())
+    {
+        <div class="alert alert-info text-center p-4">
+            هنوز هیچ پروژه‌ای ثبت نشده است.
+        </div>
+    }
+    else
+    {
+        <table class="table table-striped table-hover text-center align-middle shadow">
+            <thead class="table-dark">
+                <tr>
+                    <th>عنوان پروژه</th>
+                    <th>توضیحات</th>
+                    <th>لینک</th>
+                    <th style="width:140px;">عملیات</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var project in Model.Items)
+                {
+                    <tr>
+                        <td>@project.Title</td>
+                        <td>@project.Description</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(project.GithubUrl))
+                            {
+                                <a href="@project.GithubUrl" target="_blank">مشاهده</a>
+                            }
+                            else
+                            {
+                                <span class="text-muted">ندارد</span>
+                            }
+                        </td>
+
+                       
+
+                        <td>
+                            <a asp-controller="Project"
+                               asp-action="Edit"
+                               asp-route-id="@project.Id"
+                               class="btn btn-warning btn-sm">
+                                ویرایش
+                            </a>
+
+                            <form asp-controller="Project"
+                                  asp-action="Delete"
+                                  asp-route-id="@project.Id"
+                                  method="post"
+                                  style="display:inline">
+
+                                <button type="submit"
+                                        class="btn btn-danger btn-sm">
+                                    حذف
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="pagination">
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <a class="@(i == Model.CurrentPage ? "active" : "")"
+                   href="@Url.Action("Index", new { page = i })">
+                    @i
+                </a>
+            }
+        </div>
+
+    }
+
+    <a asp-controller="Project"
+       asp-action="Create"
+       
+       class="btn btn-danger btn-sm">
+      
+        افزودن پروژه
+    </a>
+    <script>
+        document.addEventListener("click", async function (e) {
+
+            if (!e.target.classList.contains("btn-delete"))
+                return;
+
+            const id = e.target.getAttribute("data-id");
+
+            if (!confirm("آیا مطمئن هستید که می‌خواهید این پروژه را حذف کنید؟"))
+                return;
+
+            const response = await fetch('/Project/Delete', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ id: id })
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                alert("پروژه با موفقیت حذف شد");
+
+             
+                const item = e.target.closest(".project-item");
+                if (item) {
+                    item.remove();
+                }
+            } else {
+                alert(result.message ?? "خطایی رخ داد");
+            }
+        });
+    </script>
+
+
+</div>
+
+
+
+

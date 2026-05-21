@@ -1,0 +1,20 @@
+﻿@model MyPortfolio.Application.ViewModels.AboutViewModel
+
+<form asp-action="Index" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="DescriptionFa">About me</label>
+        <textarea asp-for="DescriptionFa" class="form-control" rows="5"></textarea>
+
+        <span asp-validation-for="DescriptionFa" class="text-danger"></span>
+        
+
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Save</button>
+
+
+
+
+</form>

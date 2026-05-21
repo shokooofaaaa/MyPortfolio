@@ -1,0 +1,76 @@
+﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.ProjectViewModel>
+
+<section class="projects-section" dir="rtl">
+    <h3 class="section-title">پروژه های من</h3>
+
+    <div class="slider-container">
+
+        <button class="slider-btn next-btn" onclick="moveSlider(1)">&#10094;</button>
+
+        <div class="projects-grid" id="projectsGrid">
+            @foreach (var project in Model.Items)
+            {
+                <div class="project-card">
+                    <div class="project-title">@project.Title</div>
+                    <div class="project-description truncated">@project.Description</div>
+                    <span class="read-more-btn">... نمایش بیشتر</span>
+                    <a href="@project.GithubUrl" target="_blank" class="project-btn">مشاهده</a>
+                </div>
+                
+            }
+        </div>
+        <button class="slider-btn prev-btn" onclick="moveSlider(-1)">&#10095;</button>
+        
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const btns = document.querySelectorAll(".read-more-btn");
+
+        btns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                const desc = btn.previousElementSibling;
+                if (desc.classList.contains("truncated")) {
+                    desc.classList.remove("truncated");
+                    btn.textContent = "بستن";
+                } else {
+                    desc.classList.add("truncated");
+                    btn.textContent = "... نمایش بیشتر";
+                }
+            });
+        });
+    });
+                function moveSlider(direction) {
+        const grid = document.getElementById("projectsGrid");
+        const card = grid.querySelector(".project-card");
+        if (!grid || !card) return;
+
+        const cardStyles = getComputedStyle(card);
+        const cardWidth = card.offsetWidth +
+            parseFloat(cardStyles.marginLeft) +
+            parseFloat(cardStyles.marginRight);
+
+        const gridStyles = getComputedStyle(grid);
+        const gap = parseFloat(gridStyles.columnGap) || parseFloat(gridStyles.gap) || 0;
+
+        const slideWidth = cardWidth + gap;
+
+        grid.scrollBy({
+            left: direction * slideWidth,
+            behavior: "smooth"
+        });
+    }
+</script>
+
+
+
+

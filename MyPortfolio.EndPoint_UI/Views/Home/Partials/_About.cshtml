@@ -1,0 +1,109 @@
+﻿@model string
+
+<section id="about" class="about-section">
+    <div class="about-card">
+        <div class="about-header">
+            <span>درباره من</span>
+        </div>
+
+        <p class="about-text" id="aboutText">
+            @Model
+        </p>
+        <span class="read-more-btn">... نمایش بیشتر</span>
+
+        
+    </div>
+</section>
+
+
+
+<style>
+    .about-section {
+        width: 100%;
+        padding: 20px 0;
+        margin-top: 5px;
+        margin-bottom: 10px !important;
+    }
+
+    .about-header {
+        width: 100%;
+        max-width: 1100px;
+        margin-bottom: 4px;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+        .about-header span {
+            font-size: 30px;
+            font-weight: 900;
+            color: #4a1742;
+        }
+
+    .about-card {
+        background: #fff;
+        width: 100%;
+        max-width: 1100px;
+        margin: 0 auto;
+        border-radius: 18px;
+        padding: 14px 35px 28px 35px;
+        background: rgba(255, 245, 250, 0.38);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.40);
+    }
+
+    
+
+    .about-text {
+        line-height: 1.9;
+        margin: 0;
+        font-size: 16px; 
+        color: #333; 
+        text-align: right;
+    }
+
+        .about-text.is-collapsed {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+        }
+
+    .read-more-btn {
+        display: block; 
+        margin-top: 10px;
+        background: none;
+        border: 0;
+        color: #7a1f3d;
+        font-weight: 600;
+        cursor: pointer;
+        padding: 5px 0;
+        width: 100px;
+    }
+
+
+
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const text = document.getElementById('aboutText');
+        const btn  = document.getElementById('aboutToggle');
+
+        if (!text || !btn) return;
+
+        text.classList.add('is-collapsed');
+
+    
+        setTimeout(() => {
+            if (text.scrollHeight <= text.clientHeight) {
+                btn.style.display = 'none';
+            }
+        }, 100);
+
+        btn.addEventListener('click', () => {
+            const collapsed = text.classList.toggle('is-collapsed');
+            btn.textContent = collapsed ? 'نمایش بیشتر' : 'نمایش کمتر';
+        });
+    });
+</script>

@@ -1,0 +1,28 @@
+﻿@model MyPortfolio.Application.ViewModels.LanguageViewModel
+
+<h2>ایجاد زبان جدید</h2>
+
+<form asp-area="Admin"  asp-action="Create" asp-controller="Language" method="post">
+
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Level"></label>
+        <input asp-for="@Model.Level"  type="number" placeholder="درصد زبان" min="0" max="100" />
+
+    </div>
+
+
+
+    <button class="btn btn-success">
+        ذخیره
+    </button>
+
+</form>
+

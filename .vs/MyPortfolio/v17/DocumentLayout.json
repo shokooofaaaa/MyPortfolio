@@ -1,0 +1,1981 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\portfolio\\MyPortfolio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\common\\extention\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\common\\extention\\number.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\common\\extention\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\common\\extention\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\contract\\icontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\contract\\icontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\aboutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\aboutdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\contactmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\contactmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\educationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\educationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\languagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\languagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\datatransferobject\\workexperiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\datatransferobject\\workexperiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\abouts\\aboutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\abouts\\aboutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\abouts\\iaboutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\abouts\\iaboutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\contactmessage\\contactmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\contactmessage\\contactmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\contactmessage\\icontactmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\contactmessage\\icontactmessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\education\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\education\\educationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\education\\ieducationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\education\\ieducationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\language\\ilanguageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\language\\ilanguageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\language\\languageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\language\\languageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\profile\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\profile\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\profile\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\profile\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\skill\\iskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\skill\\iskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\skill\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\skill\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\workexperience\\iworkexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\workexperience\\iworkexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\workexperience\\workexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\workexperience\\workexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\aboutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\aboutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\contactmessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\contactmessageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\educationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\educationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\languageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\languageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\pagedlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\pagedlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\portfolioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\portfolioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\projectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\projectviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\skillindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\skillindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\skillviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\skillviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|d:\\portfolio\\myportfolio\\myportfolio.application\\viewmodels\\workexperienceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B711B6BF-C2EC-47E9-A677-1E7ABA10696A}|MyPortfolio.Application\\MyPortfolio.Application.csproj|solutionrelative:myportfolio.application\\viewmodels\\workexperienceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\aboutentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\aboutentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\contactmessageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\contactmessageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\educationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\educationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\languageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\languageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\profileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\profileentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\projectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\projectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\skillentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\skillentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|d:\\portfolio\\myportfolio\\myportfolio.domain\\entities\\workexperienceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBDD015C-7CD0-470F-9A51-AB21E0762A62}|MyPortfolio.Domain\\MyPortfolio.Domain.csproj|solutionrelative:myportfolio.domain\\entities\\workexperienceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\wwwroot\\css\\contactmessage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\wwwroot\\css\\contactmessage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\wwwroot\\css\\language.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\wwwroot\\css\\language.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\wwwroot\\css\\profile.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\wwwroot\\css\\project.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\wwwroot\\css\\project.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\wwwroot\\css\\skill.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\wwwroot\\css\\skill.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\wwwroot\\css\\workandeducation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\wwwroot\\css\\workandeducation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\contactmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\contactmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\educationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\languagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\controllers\\workexperiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\controllers\\workexperiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\contactmessage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\contactmessage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\education\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\education\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\education\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\education\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\education\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\education\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\language\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\language\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\language\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\language\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\language\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\language\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\project\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\project\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\project\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\project\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\skill\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\skill\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\skill\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\skill\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\partials\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\partials\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\partials\\_contactmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\partials\\_contactmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\partials\\_education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\partials\\_education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\partials\\_experience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\partials\\_experience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\partials\\_language.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\partials\\_language.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\partials\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\partials\\_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\partials\\_project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\partials\\_project.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\partials\\_skill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\partials\\_skill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|d:\\portfolio\\myportfolio\\myportfolio.infrastructure\\migrations\\20260521141518_addedcreatedatincontactmessageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|solutionrelative:myportfolio.infrastructure\\migrations\\20260521141518_addedcreatedatincontactmessageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|d:\\portfolio\\myportfolio\\myportfolio.infrastructure\\migrations\\20260519081626_changetypeofleveltointinlanguageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|solutionrelative:myportfolio.infrastructure\\migrations\\20260519081626_changetypeofleveltointinlanguageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|d:\\portfolio\\myportfolio\\myportfolio.infrastructure\\migrations\\20260519081402_isdeleteaddedtolanguageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|solutionrelative:myportfolio.infrastructure\\migrations\\20260519081402_isdeleteaddedtolanguageentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|d:\\portfolio\\myportfolio\\myportfolio.infrastructure\\migrations\\20260519072232_setdescriptionnullableineducationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|solutionrelative:myportfolio.infrastructure\\migrations\\20260519072232_setdescriptionnullableineducationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\user\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\workexperience\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\workexperience\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|d:\\portfolio\\myportfolio\\myportfolio.infrastructure\\migrations\\20260518134846_nullabledatetimeandadddescriptiontoeducationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|solutionrelative:myportfolio.infrastructure\\migrations\\20260518134846_nullabledatetimeandadddescriptiontoeducationentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|d:\\portfolio\\myportfolio\\myportfolio.infrastructure\\migrations\\20260518103815_nullabledatetimeinwordexprienceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EFD76DE-A38B-414B-92DC-056764DF2646}|MyPortfolio.Infrastructure\\MyPortfolio.Infrastructure.csproj|solutionrelative:myportfolio.infrastructure\\migrations\\20260518103815_nullabledatetimeinwordexprienceentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\workexperience\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\workexperience\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|d:\\portfolio\\myportfolio\\myportfolio.endpoint_ui\\areas\\admin\\views\\workexperience\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C536161B-EFBB-4C74-B721-C4AE295719B9}|MyPortfolio.EndPoint_UI\\MyPortfolio.EndPoint_UI.csproj|solutionrelative:myportfolio.endpoint_ui\\areas\\admin\\views\\workexperience\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 107,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IContext.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Contract\\IContext.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Contract\\IContext.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Contract\\IContext.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Contract\\IContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:21:26.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AboutViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\AboutViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\AboutViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\AboutViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\AboutViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:19:47.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:19:35.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PagedListViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\PagedListViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\PagedListViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\PagedListViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\PagedListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:19:32.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProjectViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ProjectViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\ProjectViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ProjectViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\ProjectViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:19:14.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AboutEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\AboutEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\AboutEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\AboutEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\AboutEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:19:01.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ProjectEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ProjectEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\ProjectEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ProjectEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\ProjectEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:18:37.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AboutController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AboutController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AboutController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AboutController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AboutController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:14:09.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T17:12:29.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:12:07.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Edit.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Edit.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:11:21.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:11:18.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:08:11.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:08:08.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\About.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\About.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\About.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:08:05.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:05:09.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:05:07.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:05:04.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T17:04:52.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SkillDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\SkillDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\SkillDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\SkillDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\SkillDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T15:39:20.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\ProjectDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ProjectDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T15:39:09.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfileDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ProfileDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\ProfileDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ProfileDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\ProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T15:38:59.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\LoginDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\LoginDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\LoginDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T15:38:51.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AboutDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\AboutDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\AboutDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\AboutDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\AboutDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T15:38:43.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\ContactMessage\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\ContactMessage\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\ContactMessage\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\ContactMessage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T15:24:02.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "contactMessage.css",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\contactMessage.css",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\contactMessage.css",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\contactMessage.css",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\contactMessage.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-21T14:41:09.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ContactMessageController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ContactMessageController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ContactMessageController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ContactMessageController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ContactMessageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T14:33:01.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "_ContactMessage.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_ContactMessage.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_ContactMessage.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_ContactMessage.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_ContactMessage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T14:22:22.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "20260521141518_AddedCreatedAtInContactMessageEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260521141518_AddedCreatedAtInContactMessageEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260521141518_AddedCreatedAtInContactMessageEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260521141518_AddedCreatedAtInContactMessageEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Infrastructure\\Migrations\\20260521141518_AddedCreatedAtInContactMessageEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T14:15:19.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ContactMessageService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ContactMessage\\ContactMessageService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\ContactMessage\\ContactMessageService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ContactMessage\\ContactMessageService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\ContactMessage\\ContactMessageService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:57:23.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ContactMessageViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ContactMessageViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\ContactMessageViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ContactMessageViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\ContactMessageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:51:26.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IContactMessageService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ContactMessage\\IContactMessageService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\ContactMessage\\IContactMessageService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ContactMessage\\IContactMessageService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\ContactMessage\\IContactMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:46:43.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IProjectService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\IProjectService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\IProjectService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\IProjectService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\IProjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:44:23.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactMessageDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ContactMessageDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\ContactMessageDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\ContactMessageDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\ContactMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:43:35.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\BaseEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:41:08.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ContactMessageEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ContactMessageEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\ContactMessageEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ContactMessageEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\ContactMessageEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:11:44.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "language.css",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\language.css",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\language.css",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\language.css",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\language.css",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAE0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-21T08:11:26.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "_Language.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Language.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Language.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Language.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Language.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:53:41.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Create.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Create.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:29:22.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Edit.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Edit.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:28:39.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Edit.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Edit.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:28:09.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Language\\Index.cshtml",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T07:09:56.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:02:46.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T07:02:32.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LanguageController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\LanguageController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\LanguageController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\LanguageController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\LanguageController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T06:54:22.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T10:36:17.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "project.css",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\project.css",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\project.css",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\project.css",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\project.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-20T09:30:07.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "skill.css",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\skill.css",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\skill.css",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\skill.css",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\skill.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-20T06:45:33.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "profile.css",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\profile.css",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\profile.css",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\profile.css",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\profile.css",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-19T12:32:27.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "_Profile.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Profile.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Profile.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Profile.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T12:21:03.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LanguageService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Language\\LanguageService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Language\\LanguageService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Language\\LanguageService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Language\\LanguageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:22:35.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ILanguageService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Language\\ILanguageService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Language\\ILanguageService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Language\\ILanguageService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Language\\ILanguageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:19:47.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LanguageDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\LanguageDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\LanguageDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\LanguageDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\LanguageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:18:01.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "20260519081626_ChangeTypeOfLevelToIntInLanguageEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519081626_ChangeTypeOfLevelToIntInLanguageEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260519081626_ChangeTypeOfLevelToIntInLanguageEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519081626_ChangeTypeOfLevelToIntInLanguageEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Infrastructure\\Migrations\\20260519081626_ChangeTypeOfLevelToIntInLanguageEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:16:27.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SkillViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\SkillViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\SkillViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\SkillViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\SkillViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:15:09.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "20260519081402_IsDeleteAddedToLanguageEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519081402_IsDeleteAddedToLanguageEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260519081402_IsDeleteAddedToLanguageEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519081402_IsDeleteAddedToLanguageEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Infrastructure\\Migrations\\20260519081402_IsDeleteAddedToLanguageEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:14:02.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SkillEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\SkillEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\SkillEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\SkillEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\SkillEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:12:50.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "20260519072232_SetDescriptionNullableInEducationEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519072232_SetDescriptionNullableInEducationEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260519072232_SetDescriptionNullableInEducationEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260519072232_SetDescriptionNullableInEducationEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Infrastructure\\Migrations\\20260519072232_SetDescriptionNullableInEducationEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T07:22:32.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LanguageEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\LanguageEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\LanguageEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\LanguageEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\LanguageEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T16:29:35.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LanguageViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\LanguageViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\LanguageViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\LanguageViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\LanguageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T16:29:29.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\User\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\User\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\User\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\User\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:37:41.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Create.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Create.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T15:16:51.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Edit.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Edit.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T15:14:54.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Education\\Index.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T15:08:11.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T15:07:33.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "EducationController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\EducationController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\EducationController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\EducationController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\EducationController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:57:20.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EducationService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Education\\EducationService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Education\\EducationService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Education\\EducationService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Education\\EducationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:57:06.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IEducationService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Education\\IEducationService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Education\\IEducationService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Education\\IEducationService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Education\\IEducationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:53:54.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EducationDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\EducationDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\EducationDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\EducationDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\EducationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:51:14.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EducationViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\EducationViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\EducationViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\EducationViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\EducationViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:49:56.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "20260518134846_NullableDateTimeANDAddDescriptionToEducationEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260518134846_NullableDateTimeANDAddDescriptionToEducationEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260518134846_NullableDateTimeANDAddDescriptionToEducationEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260518134846_NullableDateTimeANDAddDescriptionToEducationEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Infrastructure\\Migrations\\20260518134846_NullableDateTimeANDAddDescriptionToEducationEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:48:46.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "EducationEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\EducationEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\EducationEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\EducationEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\EducationEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T13:41:38.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "_About.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_About.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_About.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_About.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T11:52:30.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-18T11:48:56.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAABUBAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-18T11:33:18.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Profile\\ProfileService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Profile\\ProfileService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Profile\\ProfileService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Profile\\ProfileService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:04:20.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:04:01.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProfileEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ProfileEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\ProfileEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\ProfileEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\ProfileEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T11:03:13.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "20260518103815_NullableDateTimeInWOrdExprienceEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260518103815_NullableDateTimeInWOrdExprienceEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Infrastructure\\Migrations\\20260518103815_NullableDateTimeInWOrdExprienceEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Infrastructure\\Migrations\\20260518103815_NullableDateTimeInWOrdExprienceEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Infrastructure\\Migrations\\20260518103815_NullableDateTimeInWOrdExprienceEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T10:38:15.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "WorkExperienceEntity.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\WorkExperienceEntity.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Domain\\Entities\\WorkExperienceEntity.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Domain\\Entities\\WorkExperienceEntity.cs",
+              "RelativeToolTip": "MyPortfolio.Domain\\Entities\\WorkExperienceEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T08:07:12.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAFwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T06:31:54.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "_Skill.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Skill.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Skill.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Skill.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Skill.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T06:15:18.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T06:03:43.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "workAndeducation.css",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\workAndeducation.css",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\workAndeducation.css",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\wwwroot\\css\\workAndeducation.css",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\wwwroot\\css\\workAndeducation.css",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-18T06:03:03.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "_Education.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Education.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Education.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Education.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Education.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T06:00:43.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "_Project.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Project.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Project.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Project.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Project.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T05:40:04.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "_Experience.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Experience.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Experience.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Experience.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Partials\\_Experience.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T05:39:20.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PortfolioViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\PortfolioViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\PortfolioViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\PortfolioViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\PortfolioViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T05:36:48.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T05:36:06.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ISkillService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Skill\\ISkillService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Skill\\ISkillService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Skill\\ISkillService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Skill\\ISkillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:50:00.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IProfileService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Profile\\IProfileService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Profile\\IProfileService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Profile\\IProfileService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Profile\\IProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:49:57.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAboutService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Abouts\\IAboutService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Abouts\\IAboutService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Abouts\\IAboutService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Abouts\\IAboutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:49:21.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AboutService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Abouts\\AboutService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Abouts\\AboutService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Abouts\\AboutService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Abouts\\AboutService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA0wCQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:49:17.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProjectService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ProjectService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\ProjectService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\ProjectService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\ProjectService.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:31:32.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SkillService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Skill\\SkillService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\Skill\\SkillService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\Skill\\SkillService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\Skill\\SkillService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T19:30:51.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Edit.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Edit.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T18:18:52.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\appsettings.json",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\appsettings.json",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\appsettings.json",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-17T18:12:14.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Program.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Program.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Program.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T18:11:23.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T17:59:26.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Create.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Create.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T16:55:32.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Edit.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Edit.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Edit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T16:54:05.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\WorkExperience\\Index.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T16:43:49.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IWorkExperienceService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\WorkExperience\\IWorkExperienceService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\WorkExperience\\IWorkExperienceService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\WorkExperience\\IWorkExperienceService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\WorkExperience\\IWorkExperienceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:13:47.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Number.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Common\\Extention\\Number.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Common\\Extention\\Number.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Common\\Extention\\Number.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Common\\Extention\\Number.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T10:29:03.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Time.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Common\\Extention\\Time.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Common\\Extention\\Time.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Common\\Extention\\Time.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Common\\Extention\\Time.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T10:23:52.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WorkExperienceService.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\WorkExperience\\WorkExperienceService.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\Services\\WorkExperience\\WorkExperienceService.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\Services\\WorkExperience\\WorkExperienceService.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\Services\\WorkExperience\\WorkExperienceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T09:49:22.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WorkExperienceDto.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\WorkExperienceDto.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\DataTransferObject\\WorkExperienceDto.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\DataTransferObject\\WorkExperienceDto.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\DataTransferObject\\WorkExperienceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T08:34:04.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "WorkExperienceViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\WorkExperienceViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\WorkExperienceViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\WorkExperienceViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\WorkExperienceViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T08:31:15.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Create.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Create.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T08:27:28.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "SkillController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\SkillController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\SkillController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\SkillController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\SkillController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T08:26:15.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "SkillIndexViewModel.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\SkillIndexViewModel.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.Application\\ViewModels\\SkillIndexViewModel.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.Application\\ViewModels\\SkillIndexViewModel.cs",
+              "RelativeToolTip": "MyPortfolio.Application\\ViewModels\\SkillIndexViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T08:25:28.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Skill\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T08:22:57.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Index.cshtml",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Index.cshtml",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Views\\Project\\Index.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T08:22:53.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "WorkExperienceController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\WorkExperienceController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\WorkExperienceController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\WorkExperienceController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\WorkExperienceController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T08:19:00.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\portfolio\\MyPortfolio\\MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "MyPortfolio.EndPoint_UI\\Areas\\Admin\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T08:18:57.986Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

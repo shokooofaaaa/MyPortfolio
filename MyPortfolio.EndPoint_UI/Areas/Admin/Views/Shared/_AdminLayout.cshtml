@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>پنل مدیریت</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body class="admin-body">
+
+    <div class="admin-wrapper">
+        <aside class="admin-sidebar">
+
+            <div class="sidebar-top">
+                <div class="lang-box">FA</div>
+
+                <div class="avatar">
+                    <img src="~/images/avatar.jpg" />
+                </div>
+            </div>
+
+            <nav class="menu">
+
+                
+
+              <a class="menu-item" asp-controller="Profile" asp-action="Index">
+              <span class="icon">👤</span>
+                پروفایل
+               </a>
+                <a class="menu-item" asp-controller="About" asp-action="Index">
+                    <span class="icon">👤</span>
+                    درباره من
+                </a>
+                <a class="menu-item" asp-controller="Skill" asp-action="Index">
+                    <span class="icon">🧠</span>
+                    مهارت‌ها
+                </a>
+                
+                <a class="menu-item" asp-controller="Project" asp-action="Index">
+                    <span class="icon">📁</span>
+                    پروژه‌ها
+                </a>
+
+                <a class="menu-item" asp-controller="WorkExperience" asp-action="Index">
+                    <span class="icon">💼</span>
+                    تجربه‌ها
+                </a>
+
+                <a class="menu-item" asp-controller="Education" asp-action="Index">
+                    <span class="icon">🎓</span>
+                    تحصیلات
+                </a>
+                <a class="menu-item" asp-controller="Language" asp-action="Index">
+                    <span class="icon">🌐</span>
+                   زبان ها
+                </a>
+
+                <a class="menu-item" asp-controller="ContactMessage" asp-action="Index">
+                    <span class="icon">✉️</span>
+                    پیام‌ها
+                </a>
+
+                
+
+                
+
+            </nav>
+
+        </aside>
+
+    </div>
+        <main class="admin-content">
+            @RenderBody()
+        </main>
+</div>
+       
+
+</body>
+</html>
+
+

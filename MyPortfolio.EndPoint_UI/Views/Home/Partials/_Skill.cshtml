@@ -1,0 +1,41 @@
+﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.SkillViewModel>
+
+@{
+    var skillGroups = Model?.Items?
+        .Select((skill, index) => new { skill, index })
+        .GroupBy(x => x.index / 2)
+        .Select(g => g.Select(x => x.skill).ToList())
+        .ToList();
+}
+
+<section id="skills" class="skills-section">
+    <h3 class="section-title">مهارت‌های من</h3>
+
+    <div class="skills-grid">
+        @if (skillGroups != null && skillGroups.Any())
+        {
+            foreach (var group in skillGroups)
+            {
+                <div class="skill-card">
+
+                    @foreach (var skill in group)
+                    {
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">@skill.Name</span>
+                                <span class="skill-percent">@skill.Level%</span>
+                            </div>
+
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width:@skill.Level%"></div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            }
+        }
+    </div>
+</section>
+
+

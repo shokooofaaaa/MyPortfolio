@@ -1,0 +1,24 @@
+﻿
+
+
+.form-control {
+    border: 2px solid #e1bee7; 
+    border-radius: 8px;
+    padding: 12px;
+}
+
+    .form-control:focus {
+        border-color: #6a1b9a;
+        box-shadow: 0 0 0 0.2rem rgba(106, 27, 154, 0.25);
+    }
+
+.custom-card {
+    background: rgba(255, 245, 250, 0.38);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
