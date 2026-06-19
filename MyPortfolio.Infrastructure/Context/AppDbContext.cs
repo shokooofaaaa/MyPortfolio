@@ -22,7 +22,13 @@ namespace MyPortfolio.Infrastructure.Context
         public DbSet<AboutEntity> Abouts { get; set; }
 
         public DbSet<LanguageEntity> Languages { get; set; }
-       
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+        }
 
         public IExecutionStrategy CreateExecutionStrategy()
         {

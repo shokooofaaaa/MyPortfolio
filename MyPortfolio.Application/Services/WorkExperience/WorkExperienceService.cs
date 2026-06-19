@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace MyPortfolio.Application.Services.WorkExperience
@@ -23,27 +24,35 @@ namespace MyPortfolio.Application.Services.WorkExperience
 
         public async Task CreateWorkExperienceAsync(WorkExperienceDto dto)
         {
+            // تشخیص زبان فعلی سایت در لحظه ثبت فرم
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
+
             var entity = new WorkExperienceEntity()
             {
-                Id=dto.Id,
-               Title = dto.Title,
-               CompanyName=dto.CompanyName,
-               DateOfStart = dto.DateOfStart.ConvertToGregorian(),
+                Id = dto.Id,
+                TitleFa = dto.TitleFa,
+                TitleEn = dto.TitleEn,
+                CompanyNameFa = dto.CompanyNameFa,
+                CompanyNameEn = dto.CompanyNameEn,
+                DescriptionFa = dto.DescriptionFa,
+                DescriptionEn = dto.DescriptionEn,
 
-                DateOfEnd = string.IsNullOrWhiteSpace(dto.DateOfEnd) || dto.DateOfEnd == "تا اکنون"
-            ? null
-            : dto.DateOfEnd.ConvertToGregorian(),
+                DateOfStart = (culture == "fa-IR")
+                    ? dto.DateOfStart.ConvertToGregorian() 
+                    : DateTime.Parse(dto.DateOfStart),      
 
-                Description = dto.Description   };
+                DateOfEnd = (string.IsNullOrWhiteSpace(dto.DateOfEnd) || dto.DateOfEnd == "تا اکنون" || dto.DateOfEnd == "Present")
+                    ? (DateTime?)null
+                    : (culture == "fa-IR" ? dto.DateOfEnd.ConvertToGregorian() : DateTime.Parse(dto.DateOfEnd))
+            };
 
             _context.Set<WorkExperienceEntity>().Add(entity);
-
             await _context.SaveChangesAsync();
-            
         }
 
 
-       public async Task  DeleteWorkExperienceAsync(Guid ExprienceId)
+
+        public async Task  DeleteWorkExperienceAsync(Guid ExprienceId)
         {
            WorkExperienceEntity entity = await _context.Set<WorkExperienceEntity>()
                            .FirstOrDefaultAsync(f => f.Id == ExprienceId);
@@ -67,24 +76,36 @@ namespace MyPortfolio.Application.Services.WorkExperience
             var take = pageSize;
 
             var items = await query
-          .OrderByDescending(x => x.Id)
-          .Skip(skip)
-          .Take(take)
-          .ToListAsync(); 
+                .OrderByDescending(x => x.DateOfStart) // بهتر است بر اساس تاریخ مرتب شود تا ID
+                .Skip(skip)
+                .Take(take)
+                .ToListAsync();
+
+            // تشخیص زبان فعلی سایت
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
 
             var result = items.Select(x => new WorkExperienceViewModel
             {
                 Id = x.Id,
-                Title = x.Title,
-                CompanyName = x.CompanyName,
-                DateOfStart = x.DateOfStart.PersianDateWithOutTime(),
+
+                // اگر در ویومدل فیلدهای اختصاصی دارید پر شوند
+                TitleFa = x.TitleFa,
+                TitleEn = x.TitleEn,
+                CompanyNameFa = x.CompanyNameFa,
+                CompanyNameEn = x.CompanyNameEn,
+                DescriptionFa = x.DescriptionFa,
+                DescriptionEn = x.DescriptionEn,
+
+                // --- منطق دو زبانه برای تاریخ ---
+                DateOfStart = (culture == "fa-IR")
+                    ? x.DateOfStart.PersianDateWithOutTime()
+                    : x.DateOfStart.ToString("yyyy/MM/dd"),
+
                 DateOfEnd = x.DateOfEnd.HasValue
-                           ? Time.PersianDateWithOutTime(x.DateOfEnd.Value)
-                           : "تا اکنون",
+                    ? (culture == "fa-IR" ? x.DateOfEnd.Value.PersianDateWithOutTime() : x.DateOfEnd.Value.ToString("yyyy/MM/dd"))
+                    : (culture == "fa-IR" ? "تا اکنون" : "Present"),
 
-                Description = x.Description
             }).ToList();
-
 
             return new PagedListViewModel<WorkExperienceViewModel>
             {
@@ -93,42 +114,47 @@ namespace MyPortfolio.Application.Services.WorkExperience
                 PageSize = pageSize,
                 TotalItems = totalExperiences
             };
-
-
-
-
-
-
         }
+
 
         public async Task<WorkExperienceDto> GetWorkExperiencetByIdAsync(Guid id)
         {
             var exprience = await _context.Set<WorkExperienceEntity>().FindAsync(id);
 
             if (exprience == null)
-
                 return null;
 
-            var ExprienceDto = new WorkExperienceDto()
+            // تشخیص زبان فعلی
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
+
+            var exprienceDto = new WorkExperienceDto()
             {
                 Id = exprience.Id,
-                Title = exprience.Title,
-                CompanyName = exprience.CompanyName,
-                DateOfStart = exprience.DateOfStart.PersianDateWithOutTime(),
+
+                // فیلدهای متنی (چون فرم ویرایش است، هر دو را پر می‌کنیم)
+                TitleFa = exprience.TitleFa,
+                TitleEn = exprience.TitleEn,
+                CompanyNameFa = exprience.CompanyNameFa,
+                CompanyNameEn = exprience.CompanyNameEn,
+                DescriptionFa = exprience.DescriptionFa,
+                DescriptionEn = exprience.DescriptionEn,
+
+                // تاریخ شروع: فرمت‌بندی بر اساس زبان کاربر
+                DateOfStart = (culture == "fa-IR")
+                    ? exprience.DateOfStart.PersianDateWithOutTime()
+                    : exprience.DateOfStart.ToString("yyyy-MM-dd"), // استاندارد ورودی date در HTML
+
+                // تاریخ پایان: فرمت‌بندی بر اساس زبان کاربر
                 DateOfEnd = exprience.DateOfEnd.HasValue
-                             ? Time.PersianDateWithOutTime(exprience.DateOfEnd.Value)
-                             : "تا اکنون",
-
-                Description = exprience.Description
-
-
-
-
+                    ? (culture == "fa-IR"
+                        ? exprience.DateOfEnd.Value.PersianDateWithOutTime()
+                        : exprience.DateOfEnd.Value.ToString("yyyy-MM-dd"))
+                    : (culture == "fa-IR" ? "تا اکنون" : "Present")
             };
 
-            return ExprienceDto;
-
+            return exprienceDto;
         }
+
 
         public async Task UpdateWorkExperienceAsync(WorkExperienceDto dto)
         {
@@ -137,20 +163,45 @@ namespace MyPortfolio.Application.Services.WorkExperience
             if (exprience == null)
                 throw new Exception("تجربه ای با این شناسه یافت نشد");
 
-            exprience.Title = dto.Title;
-            exprience.CompanyName = dto.CompanyName;
-            exprience.DateOfStart = dto.DateOfStart.ConvertToGregorian();
+            // تشخیص زبان فعلی سایت در لحظه ویرایش
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
 
-            if (!string.IsNullOrWhiteSpace(dto.DateOfEnd) && dto.DateOfEnd != "تا اکنون")
-                exprience.DateOfEnd = dto.DateOfEnd.ConvertToGregorian();
+            // آپدیت فیلدهای متنی
+            exprience.TitleFa = dto.TitleFa;
+            exprience.TitleEn = dto.TitleEn;
+            exprience.CompanyNameFa = dto.CompanyNameFa;
+            exprience.CompanyNameEn = dto.CompanyNameEn;
+            exprience.DescriptionFa = dto.DescriptionFa;
+            exprience.DescriptionEn = dto.DescriptionEn;
+
+            // --- منطق تبدیل تاریخ شروع ---
+            if (culture == "fa-IR")
+            {
+                exprience.DateOfStart = dto.DateOfStart.ConvertToGregorian();
+            }
             else
-                exprience.DateOfEnd = null; 
+            {
+                // در حالت انگلیسی، رشته مستقیم به DateTime تبدیل می‌شود
+                exprience.DateOfStart = DateTime.Parse(dto.DateOfStart);
+            }
 
-            
-            exprience.Description = dto.Description;
+            // --- منطق تبدیل تاریخ پایان ---
+            // چک کردن مقادیر "تا اکنون" یا "Present" یا خالی بودن
+            if (string.IsNullOrWhiteSpace(dto.DateOfEnd) ||
+                dto.DateOfEnd == "تا اکنون" ||
+                dto.DateOfEnd == "Present")
+            {
+                exprience.DateOfEnd = null;
+            }
+            else
+            {
+                exprience.DateOfEnd = (culture == "fa-IR")
+                    ? dto.DateOfEnd.ConvertToGregorian()
+                    : DateTime.Parse(dto.DateOfEnd);
+            }
 
             await _context.SaveChangesAsync();
-
         }
+
     }
 }

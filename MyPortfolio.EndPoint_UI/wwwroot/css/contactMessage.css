@@ -19,6 +19,17 @@
     padding: 25px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
+@media (max-width: 768px) {
+    .contact-section-wrapper {
+        margin-top: 10px !important; 
+        display: block !important;
+        clear: both !important; 
+    }
+
+  
+}
+
+}

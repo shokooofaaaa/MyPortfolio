@@ -25,10 +25,13 @@ namespace MyPortfolio.Application.Services
         {
             var entity = new ProjectEntity
             {
-                Title = dto.Title,
-                Description = dto.Description,
-                GithubUrl = dto.GithubUrl
+                TitleFa = dto.TitleFa,
+                TitleEn=dto.TitleEn,
+                DescriptionFa = dto.DescriptionFa,
+                DescriptionEn = dto.DescriptionEn,
 
+                GithubUrl = dto.GithubUrl,
+                ProjectImagePath=dto.ImageName
 
 
             };
@@ -71,10 +74,12 @@ namespace MyPortfolio.Application.Services
 
                 {
                     Id = x.Id,
-                    Title = x.Title,
+                    TitleFa = x.TitleFa,
+                    TitleEn=x.TitleEn,
                     GithubUrl = x.GithubUrl,
-                    Description=x.Description
-
+                    DescriptionFa=x.DescriptionFa,
+                    DescriptionEn = x.DescriptionEn,
+                    ImageName= x.ProjectImagePath
 
                 }
 
@@ -105,9 +110,12 @@ namespace MyPortfolio.Application.Services
             var dto = new ProjectDto()
             {   
                 Id=project.Id,
-                Title = project.Title,
-                Description=project.Description,
-                GithubUrl=project.GithubUrl
+                TitleFa = project.TitleFa,
+                TitleEn= project.TitleEn,
+                DescriptionFa=project.DescriptionFa,
+                DescriptionEn=project.DescriptionEn,
+                GithubUrl=project.GithubUrl,
+                ImageName=project.ProjectImagePath
 
             };
 
@@ -123,10 +131,13 @@ namespace MyPortfolio.Application.Services
 
             if(project==null)
                 throw new Exception("پروژه‌ای با این شناسه یافت نشد.");
-            project.Title = dto.Title;
-            project.Description = dto.Description;
-            project.GithubUrl = dto.GithubUrl;
+            project.TitleFa = dto.TitleFa;
+            project.TitleEn = dto.TitleEn;
+            project.DescriptionFa = dto.DescriptionFa;
+            project.DescriptionEn = dto.DescriptionEn;
 
+            project.GithubUrl = dto.GithubUrl;
+            project.ProjectImagePath = dto.ImageName;
             await _context.SaveChangesAsync();
 
            

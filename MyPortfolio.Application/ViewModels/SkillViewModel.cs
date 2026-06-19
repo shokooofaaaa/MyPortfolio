@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyPortfolio.Application.ViewModels
 {
-  public  class SkillViewModel
+  public record SkillViewModel
     { 
         public Guid Id { get; set; }
         public string Name { get; set; }

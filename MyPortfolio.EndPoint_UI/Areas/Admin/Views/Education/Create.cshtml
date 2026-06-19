@@ -5,35 +5,57 @@
 <form asp-area="Admin" asp-action="Create" asp-controller="Education" method="post">
 
     @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
 
     <div class="mb-3">
-        <label asp-for="Title"></label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title"></span>
+        <label asp-for="TitleFa" class="form-label"></label>
+        <input asp-for="TitleFa" class="form-control" />
+        <span asp-validation-for="TitleFa" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="TitleEn" class="form-label"></label>
+        <input asp-for="TitleEn" class="form-control" />
+        <span asp-validation-for="TitleEn" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
 
 
-        <label asp-for="InstituteName"></label>
-        <input asp-for="InstituteName" class="form-control" />
-        <span asp-validation-for="InstituteName"></span>
+        <label asp-for="InstituteNameFa"></label>
+        <input asp-for="InstituteNameFa" class="form-control" />
+        <span asp-validation-for="InstituteNameFa"></span>
+    </div>
+
+    <div class="mb-3">
+
+
+        <label asp-for="InstituteNameEn"></label>
+        <input asp-for="InstituteNameEn" class="form-control" />
+        <span asp-validation-for="InstituteNameEn"></span>
     </div>
     <div class="form-group">
-        <label>تاریخ شروع</label>
-        <input type="text" name="DateOfStart" class="form-control" placeholder="1403/01/15" />
+        <label asp-for="DateOfStart"></label>
+        <input asp-for="DateOfStart" class="form-control" placeholder="1403/01/15" />
+        <span asp-validation-for="DateOfStart" class="text-danger"></span>
     </div>
 
     <div class="form-group">
-        <label>تاریخ پایان</label>
-        <input type="text" name="DateOfEnd" class="form-control" placeholder="1403/06/20" />
+        <label asp-for="DateOfEnd"></label>
+        <input asp-for="DateOfEnd" class="form-control" placeholder="1403/06/20" />
+        <span asp-validation-for="DateOfEnd" class="text-danger"></span>
     </div>
-
 
     <div class="mb-3">
-        <label asp-for="Description"></label>
-        <textarea asp-for="Description" class="form-control"></textarea>
+        <label asp-for="DescriptionFa" class="form-label"></label>
+        <textarea asp-for="DescriptionFa" class="form-control"></textarea>
+        <span asp-validation-for="DescriptionFa" class="text-danger"></span>
     </div>
+    <div class="mb-3">
+        <label asp-for="DescriptionEn" class="form-label"></label>
+        <textarea asp-for="DescriptionEn" class="form-control"></textarea>
+        <span asp-validation-for="DescriptionEn" class="text-danger"></span>
+    </div>
+    
 
     <button class="btn btn-success">
         ذخیره

@@ -1,4 +1,6 @@
-﻿@model MyPortfolio.Application.ViewModels.PortfolioViewModel
+﻿@using MyPortfolio.EndPoint_UI
+@using MyPortfolio.EndPoint_UI.Localization
+@model MyPortfolio.Application.ViewModels.PortfolioViewModel
 
 <partial name="Partials/_Profile" model="Model.Profile" />
     <partial name="Partials/_About" model="Model.AboutDescription" />
@@ -19,33 +21,26 @@
 
 
 
-<section class="container mt-n4 mb-5" dir="rtl">
-    <div class="row g-4 align-items-start">
-
-        <div id="experiences" class="col-12 col-lg-6">
-            <partial name="Partials/_Experience" model="Model.Experiences" />
-            <partial name="Partials/_Language" model="Model.Languages" />
-
-        </div>
-
-        <div id="educations" class="col-12 col-lg-6">
-            <partial name="Partials/_Education" model="Model.Educations" />
-            <partial name="Partials/_ContactMessage" model="Model.ContactMessage" />
-
-
+<section class="container projects-section mx-auto mt-0 mt-lg-n5 mb-5">
+    <div class="row g-4 align-items-stretch">
+        <div id="experiences" class="col-12 col-lg-6 d-flex flex-column" style="gap: 20px;">
+            <div class="flex-grow-1 d-flex">
+                <partial name="Partials/_Experience" model="Model.Experiences" />
+            </div>
             <div>
-                
-
-
-                
-                
-                   
-
-                
-                
-
+                <partial name="Partials/_Language" model="Model.Languages" />
             </div>
         </div>
 
+        <div id="educations" class="col-12 col-lg-6 d-flex flex-column" style="gap: 20px;">
+            <div class="flex-grow-1 d-flex">
+                <partial name="Partials/_Education" model="Model.Educations" />
+            </div>
+            <div>
+                <partial name="Partials/_ContactMessage" model="Model.ContactMessage" />
+            </div>
+        </div>
     </div>
+
+
 </section>

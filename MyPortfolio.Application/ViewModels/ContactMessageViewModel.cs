@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyPortfolio.Application.ViewModels
 {
-   public class ContactMessageViewModel
+   public record ContactMessageViewModel
     {
         public string Name { get; set; } = default!;
         public string Email { get; set; } = default!;

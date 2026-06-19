@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MyPortfolio.Application.ViewModels
 {
-    public class PagedListViewModel<T>
+    public record PagedListViewModel<T>
     {
         public List<T> Items { get; set; } = new();
 

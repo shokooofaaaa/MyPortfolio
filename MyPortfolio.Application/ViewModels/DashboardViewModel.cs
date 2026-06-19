@@ -2,7 +2,7 @@
 
 namespace MyPortfolio.Application.ViewModels
 {
-    public class DashboardViewModel
+    public record DashboardViewModel
     {
 
         public List<WorkExperienceEntity> WorkExperiences { get; set; }

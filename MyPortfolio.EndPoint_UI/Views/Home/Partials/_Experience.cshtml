@@ -1,10 +1,16 @@
-﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.WorkExperienceViewModel>
+﻿@using MyPortfolio.EndPoint_UI
+@using MyPortfolio.EndPoint_UI.Localization
+@using System.Globalization
+@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.WorkExperienceViewModel>
 
 
+@{
+    var isFa = CultureInfo.CurrentUICulture.Name.StartsWith("fa");
+}
 
 
-<section class="resume-section mt-5">
-    <h3 class="section-title mb-4">سابقه کار</h3>
+<section class="resume-section ">
+    <h3 class="section-title mb-4">@Localizer["WorkExprience"]</h3>
    
     <div class="timeline-card">
         @foreach (var item in Model.Items)
@@ -14,14 +20,14 @@
             <div class="timeline-badge"></div>
             <div class="timeline-content">
 
-                   
-                        <span class="timeline-title">@item.Title</span>
+
+                    <span class="timeline-title">  @(isFa ? item.TitleFa : item.TitleEn)</span>
                         <span class="timeline-period">@item.DateOfStart - @item.DateOfEnd</span>
                     
                 
-                <div class="timeline-subtitle">@item.CompanyName</div>
+                    <div class="timeline-subtitle">  @(isFa ? item.CompanyNameFa : item.CompanyNameEn)</div>
                 <ul class="timeline-list">
-                    <li>@item.Description</li>
+                        <li>  @(isFa ? item.DescriptionFa : item.DescriptionEn)</li>
                   
                 </ul>
             </div>

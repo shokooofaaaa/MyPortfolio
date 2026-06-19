@@ -5,17 +5,30 @@
     <input type="hidden" asp-for="Id" />
 
     <div class="mb-3">
-        <label asp-for="Title" class="form-label"></label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger"></span>
+        <label asp-for="TitleFa" class="form-label"></label>
+        <input asp-for="TitleFa" class="form-control" />
+        <span asp-validation-for="TitleFa" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="TitleEn" class="form-label"></label>
+        <input asp-for="TitleEn" class="form-control" />
+        <span asp-validation-for="TitleEn" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
 
 
-        <label asp-for="CompanyName"></label>
-        <input asp-for="CompanyName" class="form-control" />
-        <span asp-validation-for="CompanyName"></span>
+        <label asp-for="CompanyNameFa"></label>
+        <input asp-for="CompanyNameFa" class="form-control" />
+        <span asp-validation-for="CompanyNameFa"></span>
+    </div>
+
+    <div class="mb-3">
+
+
+        <label asp-for="CompanyNameEn"></label>
+        <input asp-for="CompanyNameEn" class="form-control" />
+        <span asp-validation-for="CompanyNameEn"></span>
     </div>
     <div class="form-group">
         <label asp-for="DateOfStart"></label>
@@ -30,12 +43,17 @@
     </div>
 
     <div class="mb-3">
-        <label asp-for="Description" class="form-label"></label>
-        <textarea asp-for="Description" class="form-control"></textarea>
-        <span asp-validation-for="Description" class="text-danger"></span>
+        <label asp-for="DescriptionFa" class="form-label"></label>
+        <textarea asp-for="DescriptionFa" class="form-control"></textarea>
+        <span asp-validation-for="DescriptionFa" class="text-danger"></span>
     </div>
 
-  
+    <div class="mb-3">
+        <label asp-for="DescriptionEn" class="form-label"></label>
+        <textarea asp-for="DescriptionEn" class="form-control"></textarea>
+        <span asp-validation-for="DescriptionEn" class="text-danger"></span>
+    </div>
+
 
     <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>
     <a asp-action="Index" class="btn btn-secondary">بازگشت</a>

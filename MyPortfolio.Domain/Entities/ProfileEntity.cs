@@ -10,8 +10,10 @@ namespace MyPortfolio.Domain.Entities
         public string JobTitleEn { get; set; } 
         public string JobTitleFa { get; set; } 
 
-        public string ProfileImagePath { get; set; } 
+        public string? ProfileImagePath { get; set; } 
 
+        public string DescriptionFa { get; set; }
+        public string DescriptionEn { get; set; }
 
 
     }

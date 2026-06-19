@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyPortfolio.Application.ViewModels
 {
-   public class LanguageViewModel
+   public record LanguageViewModel
     {
         public Guid Id { get; set; }
 

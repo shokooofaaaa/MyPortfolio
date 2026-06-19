@@ -7,6 +7,8 @@ D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\MyPortfolio.En
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\MyPortfolio.EndPoint_UI.runtimeconfig.json
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\MyPortfolio.EndPoint_UI.dll
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\MyPortfolio.EndPoint_UI.pdb
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\en-US\MyPortfolio.EndPoint_UI.resources.dll
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\fa-IR\MyPortfolio.EndPoint_UI.resources.dll
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\Azure.Core.dll
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\Azure.Identity.dll
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\Humanizer.dll
@@ -125,6 +127,16 @@ D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\MyPortfolio.Ap
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\MyPortfolio.Domain.pdb
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\bin\Debug\net8.0\MyPortfolio.Infrastructure.pdb
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.csproj.AssemblyReference.cache
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Localization.SharedResource.en-US.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Localization.SharedResource.fa-IR.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._About.en-US.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._About.fa-IR.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Experience.en-US.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Project.en-US.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Project.fa-IR.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Skill.en-US.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Skill.fa-IR.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.csproj.GenerateResource.cache
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.GeneratedMSBuildEditorConfig.editorconfig
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.AssemblyInfoInputs.cache
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.AssemblyInfo.cs
@@ -132,6 +144,9 @@ D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.En
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.MvcApplicationPartsAssemblyInfo.cache
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.RazorAssemblyInfo.cache
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.RazorAssemblyInfo.cs
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.sourcelink.json
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\en-US\MyPortfolio.EndPoint_UI.resources.dll
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\fa-IR\MyPortfolio.EndPoint_UI.resources.dll
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\scopedcss\bundle\MyPortfolio.EndPoint_UI.styles.css
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\scopedcss\projectbundle\MyPortfolio.EndPoint_UI.bundle.scp.css
@@ -151,4 +166,10 @@ D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\refint\MyPortf
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.pdb
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.genruntimeconfig.cache
 D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\ref\MyPortfolio.EndPoint_UI.dll
-D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.sourcelink.json
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Education.en-US.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Education.fa-IR.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Experience.fa-IR.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Language.en-US.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._Language.fa-IR.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._ContactMessage.en-US.resources
+D:\portfolio\MyPortfolio\MyPortfolio.EndPoint_UI\obj\Debug\net8.0\MyPortfolio.EndPoint_UI.Resources.Views.Home.Partials._ContactMessage.fa-IR.resources

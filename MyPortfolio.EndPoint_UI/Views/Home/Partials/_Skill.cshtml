@@ -1,4 +1,6 @@
-﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.SkillViewModel>
+﻿@using MyPortfolio.EndPoint_UI
+@using MyPortfolio.EndPoint_UI.Localization
+@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.SkillViewModel>
 
 @{
     var skillGroups = Model?.Items?
@@ -9,7 +11,9 @@
 }
 
 <section id="skills" class="skills-section">
-    <h3 class="section-title">مهارت‌های من</h3>
+    <h3 class="section-title">
+        @Localizer["Skills"]
+    </h3>
 
     <div class="skills-grid">
         @if (skillGroups != null && skillGroups.Any())

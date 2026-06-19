@@ -25,6 +25,17 @@
 
   <ItemGroup>
     <Folder Include="Areas\User\Views\Home\" />
+    <Folder Include="wwwroot\images\project\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Localization\SharedResource.en-US.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Localization\SharedResource.de.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

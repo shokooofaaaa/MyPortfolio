@@ -1,9 +1,22 @@
-﻿<!DOCTYPE html>
-<html lang="fa" dir="rtl">
+﻿@using System.Globalization
+@using MyPortfolio.EndPoint_UI
+@using MyPortfolio.EndPoint_UI.Localization
+
+
+
+@{
+    var culture = CultureInfo.CurrentCulture.Name;
+    var direction = culture.StartsWith("fa") ? "rtl" : "ltr";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="@culture" dir="@direction">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>پورتفولیو من</title>
+    <title>@SharedLocalizer["Site_Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/workAndeducation.css" asp-append-version="true" />
@@ -12,7 +25,6 @@
     <link rel="stylesheet" href="~/css/project.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/language.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/contactMessage.css" asp-append-version="true" />
-
 
 
 </head>
@@ -26,21 +38,29 @@
                 <div class="menu-toggle">☰</div>
 
                 <div class="nav-center">
-                    <a href="#about">درباره من</a>
-                    <a href="#skills">مهارت‌ها</a>
-                    <a href="#projects">نمونه‌کار</a>
-                    <a href="#educations">تحصیلات</a>
-
-                    <a href="#experiences">سوابق کاری</a>
-                    <a href="#languages">زبان ها</a>
-                    <a href="#contact">تماس با من</a>
+                    <a href="#about">  @SharedLocalizer["Nav_AboutMe"]</a>
+                    <a href="#skills">@SharedLocalizer["Nav_Skills"]</a>
+                    <a href="#projects">@SharedLocalizer["Nav_Projects"]</a>
+                    <a href="#educations">@SharedLocalizer["Nav_Education"]</a>
+                    <a href="#experiences">@SharedLocalizer["Nav_Experience"]</a>
+                    <a href="#languages">@SharedLocalizer["Nav_Languages"]</a>
+                    <a href="#contact">@SharedLocalizer["Nav_Contact"]</a>
 
                     <div class="nav-left">
 
                         <a asp-controller="Account" asp-action="Login" asp-area="Admin" class=" btn-custom-maroon">
-                        ورود به پنل
-                    </a>
+                            @SharedLocalizer["Nav_AdminLogin"]
+                        </a>
                     </div>
+
+                    <li class="nav-item d-flex align-items-center ms-lg-3">
+                        <div class="language-switcher">
+                            <a href="?culture=fa-IR" class="lang-link @(Context.Request.Query["culture"] == "fa-IR" ? "active" : "")">FA</a>
+                            <span class="text-muted mx-1">|</span>
+                            <a href="?culture=en-US" " class="lang-link @(Context.Request.Query["culture"] == "en-US" ? "active" : "")">EN</a>
+                        </div>
+                    </li>
+
                 </div>
             </nav>
         </div>
@@ -53,6 +73,7 @@
 
     <footer>
     </footer>
+  
 
   <script>
     const toggle = document.querySelector('.menu-toggle');
@@ -62,6 +83,8 @@
         menu.classList.toggle('active');
     });
 </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>

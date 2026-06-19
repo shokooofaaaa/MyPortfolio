@@ -10,6 +10,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
+
 namespace MyPortfolio.Application.Services.Profile
 {
    public class ProfileService : IProfileService
@@ -43,9 +46,10 @@ namespace MyPortfolio.Application.Services.Profile
 
                 JobTitleEn = profileEntity.JobTitleEn,
 
-                ImageName = profileEntity.ProfileImagePath
+                ImageName = profileEntity.ProfileImagePath,
 
-
+                DescriptionFa=profileEntity.DescriptionFa,
+                DescriptionEn=profileEntity.DescriptionEn
             };
             }
 
@@ -61,16 +65,22 @@ namespace MyPortfolio.Application.Services.Profile
             if(profileEntity == null)
             {
 
+                if (string.IsNullOrWhiteSpace(dto.ImageName))
+                {
+                    throw new Exception("برای ایجاد پروفایل جدید، انتخاب عکس الزامی است.");
+                }
 
                 profileEntity = new ProfileEntity
                 {
                     Id = Guid.NewGuid(),
-                     FullNameEn=dto.FullNameEn,
+                    FullNameEn = dto.FullNameEn,
                      FullNameFa=dto.FullNameFa,
-                     JobTitleEn=dto.JobTitleEn,
+                    JobTitleEn = dto.JobTitleEn,
                      JobTitleFa =dto.JobTitleFa,
 
-                     ProfileImagePath = dto.ImageName
+                     ProfileImagePath = dto.ImageName,
+                     DescriptionFa=dto.DescriptionFa,
+                     DescriptionEn=dto.DescriptionEn
 
     };
 
@@ -87,6 +97,12 @@ namespace MyPortfolio.Application.Services.Profile
 
                 profileEntity.ProfileImagePath = dto.ImageName;
 
+                profileEntity.DescriptionFa = dto.DescriptionFa;
+                profileEntity.DescriptionEn = dto.DescriptionEn;
+                if (!string.IsNullOrWhiteSpace(dto.ImageName))
+                {
+                    profileEntity.ProfileImagePath = dto.ImageName;
+                }
 
             }
 

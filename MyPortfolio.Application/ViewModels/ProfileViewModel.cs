@@ -9,7 +9,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MyPortfolio.Application.ViewModels
 {
-    public class ProfileViewModel
+    public record ProfileViewModel
     {
         [Required(ErrorMessage = "لطفا نام فارسی را وارد کنید")]
         public string FullNameFa { get; set; }
@@ -24,6 +24,16 @@ namespace MyPortfolio.Application.ViewModels
         public string JobTitleEn { get; set; }
 
         public string? ImageName { get; set; }
+
+        public string DescriptionFa { get; set; }
+
+        public string DescriptionEn { get; set; }
+
+
+
+      
+
+
 
 
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyPortfolio.Application.ViewModels
 {
-   public class PortfolioViewModel
+   public record PortfolioViewModel
     {
        public PagedListViewModel<ProjectViewModel> Projects { get; set; }
         public PagedListViewModel<SkillViewModel> Skills { get; set; }
@@ -17,6 +17,6 @@ namespace MyPortfolio.Application.ViewModels
         public ProfileViewModel Profile { get; set; }
 
         public ContactMessageViewModel ContactMessage { get; set; }
-        public string AboutDescription { get; set; }
+        public AboutViewModel AboutDescription { get; set; }
     }
 }

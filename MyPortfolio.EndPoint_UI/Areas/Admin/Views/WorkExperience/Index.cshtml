@@ -28,12 +28,17 @@
         <table class="table table-striped table-hover text-center align-middle shadow">
             <thead class="table-dark">
                 <tr>
-                    <th>عنوان تجربه</th>
+                    <th>عنوان تجربه به فارسی</th>
+                    <th>عنوان تجربه به انگلیسی</th>
 
-                    <th>اسم شرکت</th>
+                    <th>اسم شرکت به فارسی</th>
+                    <th>اسم شرکت به انگلیسی</th>
+
                     <th>تاریخ شروع</th>
                     <th>تاریخ پایان</th>
-                    <th>توضیحات</th>
+                    <th> به فارسی توضیحات</th>
+                    <th>توضیحات به انگلیسی</th>
+
                     <th style="width:140px;">عملیات</th>
                 </tr>
             </thead>
@@ -42,13 +47,18 @@
                 @foreach (var exprience in Model.Items)
                 {
                     <tr>
-                        <td>@exprience.Title</td>
-                        <td>@exprience.CompanyName</td>
+                        <td>@exprience.TitleFa</td>
+                        <td>@exprience.TitleEn</td>
+
+                        <td>@exprience.CompanyNameFa</td>
+                        <td>@exprience.CompanyNameEn</td>
+
                         <td>@exprience.DateOfStart</td>
                         <td>@exprience.DateOfEnd</td>
-                        <td>@exprience.Description</td>
-                           
-                       
+                        <td>@exprience.DescriptionFa</td>
+                        <td>@exprience.DescriptionEn</td>
+
+
 
 
 

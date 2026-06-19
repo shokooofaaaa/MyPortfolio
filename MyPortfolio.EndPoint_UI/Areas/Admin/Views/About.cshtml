@@ -4,11 +4,15 @@
     @Html.AntiForgeryToken()
 
     <div class="form-group">
-        <label for="DescriptionFa">About me</label>
+        <label for="DescriptionFa">درباره من</label>
         <textarea asp-for="DescriptionFa" class="form-control" rows="5"></textarea>
 
         <span asp-validation-for="DescriptionFa" class="text-danger"></span>
         
+        <label for="DescriptionEn">About me</label>
+        <textarea asp-for="DescriptionEn" class="form-control" rows="5"></textarea>
+
+        <span asp-validation-for="DescriptionEn" class="text-danger"></span>
 
     </div>
 

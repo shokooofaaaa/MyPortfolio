@@ -28,12 +28,17 @@
         <table class="table table-striped table-hover text-center align-middle shadow">
             <thead class="table-dark">
                 <tr>
-                    <th>عنوان تحصیلات</th>
+                    <th>عنوان تحصیلات فارسی </th>
+                    <th>عنوان تحصیلات انگلیسی </th>
 
-                    <th>اسم  موسسه</th>
+                    <th>   فارسی اسم موسسه</th>
+                    <th>    انگلیسی اسم موسسه</th>
+
                     <th>تاریخ شروع</th>
                     <th>تاریخ پایان</th>
-                    <th>توضیحات</th>
+                    <th>  فارسی توضیحات</th>
+                    <th>  انگلیسی  توضیحات</th>
+
                     <th style="width:140px;">عملیات</th>
                 </tr>
             </thead>
@@ -42,11 +47,16 @@
                 @foreach (var education in Model.Items)
                 {
                     <tr>
-                        <td>@education.Title</td>
-                        <td>@education.InstituteName</td>
+                        <td>@education.TitleFa</td>
+                        <td>@education.TitleEn</td>
+
+                        <td>@education.InstituteNameFa</td>
+                        <td>@education.InstituteNameEn</td>
+
                         <td>@education.DateOfStart</td>
                         <td>@education.DateOfEnd</td>
-                        <td>@education.Description</td>
+                        <td>@education.DescriptionFa</td>
+                        <td>@education.DescriptionEn</td>
 
 
 

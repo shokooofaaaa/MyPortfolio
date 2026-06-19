@@ -29,12 +29,9 @@ namespace MyPortfolio.Application.Services.Abouts
             {
                 return new AboutViewModel();
             }
-           // var currentCulture = CultureInfo.CurrentCulture.Name;
             return new AboutViewModel()
             {
-                //Description = currentCulture.StartsWith("fa")
-                //? aboutEntity.DescriptionFa
-                //: aboutEntity.DescriptionEn,
+                
 
                 DescriptionEn = aboutEntity.DescriptionEn,
                 DescriptionFa = aboutEntity.DescriptionFa

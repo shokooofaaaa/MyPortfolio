@@ -1,0 +1,174 @@
+﻿
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px !important;
+    width: 100%; /* از 200% به 100% اصلاح شد */
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* کادر اصلی پروفایل */
+.main-container-profile {
+    display: flex;
+    flex-direction: row; /* عکس راست، متن چپ */
+    align-items: center;
+    /* چسبیدن محتوا به طرفین با فاصله کنترل شده */
+
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 80px;
+    gap: 20px;
+    /* هم‌عرض با بخش‌های دیگر */
+    margin-top: 100px;
+    /* حذف مارجین های احتمالی */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    /* اطمینان از راست‌چین بودن */
+}
+
+.avatar-wrapper {
+    flex-shrink: 0;
+    margin-right: 0;
+}
+
+.profile-img {
+    width: 220px; /* اندازه مشابه طرح */
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white; /* حاشیه سفید ضخیم دور عکس */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.profile-info {
+    flex-grow: 1;
+  
+    margin-right: 40px; /* فاصله متن از عکس */
+}
+
+.full-name {
+    color: #4a0e2e;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.job-title {
+    color: #8e214d;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.Description {
+    color: #444;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    text-align: justify; /* برای زیبایی بیشتر متن طولانی */
+}
+/* استایل تگ‌های مهارت */
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.tag-item {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #e0e0e0;
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    color: #4a0e2e;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+    .tag-item img {
+        width: 18px;
+        height: 18px;
+    }
+
+/* استایل دکمه‌های زیر تگ‌ها */
+.profile-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.btn-filled-maroon {
+    background-color: #8e214d;
+    color: white !important;
+    border: 1.5px solid #8e214d;
+    padding: 10px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(142, 33, 77, 0.2);
+}
+
+.btn-filled-maroon:hover {
+    background-color: #6d1a3b; /* کمی تیره تر هنگام هاور */
+    border-color: #6d1a3b;
+    transform: translateY(-2px);
+}
+.btn-outline-custom {
+    border: 1.5px solid #8e214d;
+    color: #8e214d;
+    padding: 10px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+    .btn-outline-custom:hover {
+        background-color: #8e214d;
+        color: white;
+    }
+
+/* اصلاح موبایل برای تگ‌ها */
+@media (max-width: 768px) {
+    .skills-tags, .profile-actions {
+        justify-content: center;
+    }
+}
+
+/* ریسپانسیو برای موبایل */
+@media (max-width: 768px) {
+    .main-container-profile {
+        flex-direction: column; /* در موبایل زیر هم قرار بگیرند */
+        text-align: center;
+        padding: 30px 20px;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px !important;
+        width: 100%; /* از 200% به 100% اصلاح شد */
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .profile-info {
+        margin-right: 0;
+        margin-top: 25px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+

@@ -42,11 +42,16 @@ namespace MyPortfolio.EndPoint_UI.Areas.Admin.Controllers
             var dto = new EducationDto()
             {
                 Id = model.Id,
-                Title = model.Title,
-                InstituteName = model.InstituteName,
+                TitleFa = model.TitleFa,
+                TitleEn = model.TitleEn,
+
+                InstituteNameFa = model.InstituteNameFa,
+                InstituteNameEn = model.InstituteNameEn,
+
                 DateOfStart = model.DateOfStart,
                 DateOfEnd = model.DateOfEnd,
-                Description = model.Description
+                DescriptionFa = model.DescriptionFa,
+                DescriptionEn = model.DescriptionEn,
 
 
 
@@ -67,11 +72,17 @@ namespace MyPortfolio.EndPoint_UI.Areas.Admin.Controllers
             var model = new EducationViewModel()
             {
                 Id = education.Id,
-                Title = education.Title,
-                InstituteName = education.InstituteName,
+                TitleFa = education.TitleFa,
+                TitleEn = education.TitleEn,
+
+                InstituteNameFa = education.InstituteNameFa,
+                InstituteNameEn = education.InstituteNameEn,
+
                 DateOfStart = education.DateOfStart,
                 DateOfEnd = education.DateOfEnd,
-                Description = education.Description
+                DescriptionFa = education.DescriptionFa,
+                DescriptionEn = education.DescriptionEn,
+
 
             };
 
@@ -87,11 +98,16 @@ namespace MyPortfolio.EndPoint_UI.Areas.Admin.Controllers
             var dto = new EducationDto()
             {
                 Id = vm.Id,
-                Title = vm.Title,
-                InstituteName = vm.InstituteName,
+                TitleFa = vm.TitleFa,
+                TitleEn = vm.TitleEn,
+
+                InstituteNameFa = vm.InstituteNameFa,
+                InstituteNameEn = vm.InstituteNameEn,
+
                 DateOfStart = vm.DateOfStart,
                 DateOfEnd = vm.DateOfEnd,
-                Description = vm.Description
+                DescriptionFa = vm.DescriptionFa,
+                DescriptionEn = vm.DescriptionEn,
             };
 
             await _education.UpdateEducationAsync(dto);

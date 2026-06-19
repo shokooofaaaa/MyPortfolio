@@ -24,7 +24,8 @@ namespace MyPortfolio.EndPoint_UI.Controllers
             {
                 model = new AboutViewModel
                 {
-                    DescriptionFa = string.Empty
+                    DescriptionFa = string.Empty,
+                    DescriptionEn=string.Empty
                 };
             }
 

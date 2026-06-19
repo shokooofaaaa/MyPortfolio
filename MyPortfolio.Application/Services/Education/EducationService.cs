@@ -24,17 +24,27 @@ namespace MyPortfolio.Application.Services.Education
 
         public async Task CreateEducationAsync(EducationDto dto)
         {
-            var entity = new EducationEntity()
-            {    Id=dto.Id,
-                Title=dto.Title,
-                InstituteName = dto.InstituteName,
-                DateOfStart = dto.DateOfStart.ConvertToGregorian(),
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
 
-                DateOfEnd = string.IsNullOrWhiteSpace(dto.DateOfEnd) || dto.DateOfEnd == "تا اکنون"
-            ? null
-            : dto.DateOfEnd.ConvertToGregorian(),
-                Description = dto.Description
-               };
+            var entity = new EducationEntity()
+            {
+                Id = dto.Id,
+                TitleFa = dto.TitleFa,
+                TitleEn = dto.TitleEn,
+                InstituteNameFa = dto.InstituteNameFa,
+                InstituteNameEn = dto.InstituteNameEn,
+
+                DescriptionFa = dto.DescriptionFa,
+                DescriptionEn = dto.DescriptionEn,
+
+                DateOfStart = (culture == "fa-IR")
+                    ? dto.DateOfStart.ConvertToGregorian()
+                    : DateTime.Parse(dto.DateOfStart),
+
+                DateOfEnd = (string.IsNullOrWhiteSpace(dto.DateOfEnd) || dto.DateOfEnd == "تا اکنون" || dto.DateOfEnd == "Present")
+                    ? (DateTime?)null
+                    : (culture == "fa-IR" ? dto.DateOfEnd.ConvertToGregorian() : DateTime.Parse(dto.DateOfEnd))
+            };
 
             _context.Set<EducationEntity>().Add(entity);
             await _context.SaveChangesAsync();
@@ -61,28 +71,38 @@ namespace MyPortfolio.Application.Services.Education
             var education = await _context.Set<EducationEntity>().FindAsync(id);
 
             if (education == null)
-
                 return null;
 
-            var dto = new EducationDto()
+            // تشخیص زبان فعلی
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
+
+            var educationDto = new EducationDto()
             {
                 Id = education.Id,
-                Title = education.Title,
-                InstituteName = education.InstituteName,
-                DateOfStart = education.DateOfStart.PersianDateWithOutTime(),
 
+                // فیلدهای متنی (چون فرم ویرایش است، هر دو را پر می‌کنیم)
+                TitleFa = education.TitleFa,
+                TitleEn = education.TitleEn,
+                InstituteNameFa = education.InstituteNameFa,
+                InstituteNameEn = education.InstituteNameEn,
+
+                DescriptionFa = education.DescriptionFa,
+                DescriptionEn = education.DescriptionEn,
+
+                // تاریخ شروع: فرمت‌بندی بر اساس زبان کاربر
+                DateOfStart = (culture == "fa-IR")
+                    ? education.DateOfStart.PersianDateWithOutTime()
+                    : education.DateOfStart.ToString("yyyy-MM-dd"), // استاندارد ورودی date در HTML
+
+                // تاریخ پایان: فرمت‌بندی بر اساس زبان کاربر
                 DateOfEnd = education.DateOfEnd.HasValue
-                             ? Time.PersianDateWithOutTime(education.DateOfEnd.Value)
-                             : "تا اکنون",
-
-                Description = education.Description
-
-               
-
-
+                    ? (culture == "fa-IR"
+                        ? education.DateOfEnd.Value.PersianDateWithOutTime()
+                        : education.DateOfEnd.Value.ToString("yyyy-MM-dd"))
+                    : (culture == "fa-IR" ? "تا اکنون" : "Present")
             };
 
-            return dto;
+            return educationDto;
 
         }
 
@@ -90,37 +110,49 @@ namespace MyPortfolio.Application.Services.Education
         {
             var query = _context.GetQueryable<EducationEntity>().Where(x => !x.IsDelete);
 
-            int totalEducations = await query.CountAsync();
+            int totalExperiences = await query.CountAsync();
 
             var skip = (page - 1) * pageSize;
             var take = pageSize;
 
             var items = await query
-          .OrderByDescending(x => x.Id)
-          .Skip(skip)
-          .Take(take)
-          .ToListAsync();
+                .OrderByDescending(x => x.DateOfStart) // بهتر است بر اساس تاریخ مرتب شود تا ID
+                .Skip(skip)
+                .Take(take)
+                .ToListAsync();
+
+            // تشخیص زبان فعلی سایت
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
 
             var result = items.Select(x => new EducationViewModel
             {
                 Id = x.Id,
-                Title = x.Title,
-                InstituteName = x.InstituteName,
-                DateOfStart = x.DateOfStart.PersianDateWithOutTime(),
+
+                // اگر در ویومدل فیلدهای اختصاصی دارید پر شوند
+                TitleFa = x.TitleFa,
+                TitleEn = x.TitleEn,
+                InstituteNameFa = x.InstituteNameFa,
+                InstituteNameEn = x.InstituteNameEn,
+                DescriptionFa = x.DescriptionFa,
+                DescriptionEn = x.DescriptionEn,
+
+                // --- منطق دو زبانه برای تاریخ ---
+                DateOfStart = (culture == "fa-IR")
+                    ? x.DateOfStart.PersianDateWithOutTime()
+                    : x.DateOfStart.ToString("yyyy/MM/dd"),
+
                 DateOfEnd = x.DateOfEnd.HasValue
-                           ? Time.PersianDateWithOutTime(x.DateOfEnd.Value)
-                           : "تا اکنون",
+                    ? (culture == "fa-IR" ? x.DateOfEnd.Value.PersianDateWithOutTime() : x.DateOfEnd.Value.ToString("yyyy/MM/dd"))
+                    : (culture == "fa-IR" ? "تا اکنون" : "Present"),
 
-                Description = x.Description
             }).ToList();
-
 
             return new PagedListViewModel<EducationViewModel>
             {
                 Items = result,
                 CurrentPage = page,
                 PageSize = pageSize,
-                TotalItems = totalEducations
+                TotalItems = totalExperiences
             };
 
 
@@ -133,17 +165,41 @@ namespace MyPortfolio.Application.Services.Education
             if (education == null)
                 throw new Exception("تحصیلاتی با این شناسه یافت نشد");
 
-            education.Title = dto.Title;
-            education.InstituteName = dto.InstituteName;
-            education.DateOfStart = dto.DateOfStart.ConvertToGregorian();
+            // تشخیص زبان فعلی سایت در لحظه ویرایش
+            var culture = System.Globalization.CultureInfo.CurrentUICulture.Name;
 
-            if (!string.IsNullOrWhiteSpace(dto.DateOfEnd) && dto.DateOfEnd != "تا اکنون")
-                education.DateOfEnd = dto.DateOfEnd.ConvertToGregorian();
+            // آپدیت فیلدهای متنی
+            education.TitleFa = dto.TitleFa;
+            education.TitleEn = dto.TitleEn;
+            education.InstituteNameFa = dto.InstituteNameFa;
+            education.InstituteNameEn = dto.InstituteNameEn;
+            education.DescriptionFa = dto.DescriptionFa;
+            education.DescriptionEn = dto.DescriptionEn;
+
+            // --- منطق تبدیل تاریخ شروع ---
+            if (culture == "fa-IR")
+            {
+                education.DateOfStart = dto.DateOfStart.ConvertToGregorian();
+            }
             else
+            {
+                // در حالت انگلیسی، رشته مستقیم به DateTime تبدیل می‌شود
+                education.DateOfStart = DateTime.Parse(dto.DateOfStart);
+            }
+
+          
+            if (string.IsNullOrWhiteSpace(dto.DateOfEnd) ||
+                dto.DateOfEnd == "تا اکنون" ||
+                dto.DateOfEnd == "Present")
+            {
                 education.DateOfEnd = null;
-
-
-            education.Description = dto.Description;
+            }
+            else
+            {
+                education.DateOfEnd = (culture == "fa-IR")
+                    ? dto.DateOfEnd.ConvertToGregorian()
+                    : DateTime.Parse(dto.DateOfEnd);
+            }
 
             await _context.SaveChangesAsync();
         }

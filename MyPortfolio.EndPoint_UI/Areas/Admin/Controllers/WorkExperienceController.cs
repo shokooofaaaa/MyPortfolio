@@ -42,11 +42,17 @@ namespace MyPortfolio.EndPoint_UI.Areas.Admin.Controllers
             var dto = new WorkExperienceDto()
             {
                 Id = model.Id,
-                Title = model.Title,
-                CompanyName = model.CompanyName,
-                DateOfStart =model.DateOfStart,
+                TitleFa = model.TitleFa,
+                TitleEn = model.TitleEn,
+
+                CompanyNameFa = model.CompanyNameFa,
+                CompanyNameEn = model.CompanyNameEn,
+
+                DateOfStart = model.DateOfStart,
                 DateOfEnd = model.DateOfEnd,
-                Description = model.Description
+                DescriptionFa = model.DescriptionFa,
+                DescriptionEn = model.DescriptionEn
+
 
 
 
@@ -67,11 +73,17 @@ namespace MyPortfolio.EndPoint_UI.Areas.Admin.Controllers
             var model = new WorkExperienceViewModel()
             {
                 Id = exprience.Id,
-                Title = exprience.Title,
-                CompanyName = exprience.CompanyName,
+                TitleFa = exprience.TitleFa,
+                TitleEn = exprience.TitleEn,
+
+                CompanyNameFa = exprience.CompanyNameFa,
+                CompanyNameEn = exprience.CompanyNameEn,
+
                 DateOfStart = exprience.DateOfStart,
                 DateOfEnd = exprience.DateOfEnd,
-                Description = exprience.Description
+                DescriptionFa = exprience.DescriptionFa,
+                DescriptionEn = exprience.DescriptionEn
+
 
             };
 
@@ -87,11 +99,16 @@ namespace MyPortfolio.EndPoint_UI.Areas.Admin.Controllers
             var dto = new WorkExperienceDto()
             {
                 Id = vm.Id,
-                Title = vm.Title,
-                CompanyName = vm.CompanyName,
+                TitleFa = vm.TitleFa,
+                TitleEn = vm.TitleEn,
+
+                CompanyNameFa = vm.CompanyNameFa,
+                CompanyNameEn = vm.CompanyNameEn,
+                
                 DateOfStart = vm.DateOfStart,
                 DateOfEnd = vm.DateOfEnd,
-                Description = vm.Description
+                DescriptionFa = vm.DescriptionFa,
+                DescriptionEn = vm.DescriptionEn
             };
 
             await workExperience.UpdateWorkExperienceAsync(dto);

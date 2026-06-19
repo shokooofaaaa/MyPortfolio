@@ -14,6 +14,13 @@ namespace MyPortfolio.Application.DataTransferObject
         public string JobTitleEn { get; set; }
         public string JobTitleFa { get; set; }
 
-        public string ImageName { get; set; }
+        public string? ImageName { get; set; }
+
+        public string DescriptionFa { get; set; }
+        public string DescriptionEn { get; set; }
+
+
+
+
     }
 }

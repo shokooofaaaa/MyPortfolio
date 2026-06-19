@@ -1,0 +1,16 @@
+D:\portfolio\MyPortfolio\MyPortfolio.Application\bin\Release\net8.0\MyPortfolio.Application.deps.json
+D:\portfolio\MyPortfolio\MyPortfolio.Application\bin\Release\net8.0\MyPortfolio.Application.dll
+D:\portfolio\MyPortfolio\MyPortfolio.Application\bin\Release\net8.0\MyPortfolio.Application.pdb
+D:\portfolio\MyPortfolio\MyPortfolio.Application\bin\Release\net8.0\MyPortfolio.Domain.dll
+D:\portfolio\MyPortfolio\MyPortfolio.Application\bin\Release\net8.0\MyPortfolio.Domain.pdb
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfolio.Application.csproj.AssemblyReference.cache
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfolio.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfolio.Application.AssemblyInfoInputs.cache
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfolio.Application.AssemblyInfo.cs
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfolio.Application.csproj.CoreCompileInputs.cache
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfolio.Application.sourcelink.json
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfo.15014862.Up2Date
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfolio.Application.dll
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\refint\MyPortfolio.Application.dll
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\MyPortfolio.Application.pdb
+D:\portfolio\MyPortfolio\MyPortfolio.Application\obj\Release\net8.0\ref\MyPortfolio.Application.dll

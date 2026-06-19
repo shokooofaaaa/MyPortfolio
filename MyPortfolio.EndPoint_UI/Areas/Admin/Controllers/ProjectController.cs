@@ -42,34 +42,50 @@ namespace MyPortfolio.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(ProjectViewModel model)
+        public async Task<IActionResult> Create(IFormFile imageFile, ProjectViewModel model)
         {
-
-
             if (!ModelState.IsValid)
             {
                 return View(model);
             }
 
-
-
             var dto = new ProjectDto()
-            { Id=model.Id,
-              Title = model.Title,
-              Description=model.Description,
-              GithubUrl = model.GithubUrl
-            
-            
+            {
+                Id = model.Id,
+                TitleFa = model.TitleFa,
+                TitleEn = model.TitleEn,
+                DescriptionFa = model.DescriptionFa,
+                DescriptionEn = model.DescriptionEn,
+
+                GithubUrl = model.GithubUrl,
+                ImageName = model.ImageName 
             };
 
-          
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "project");
 
+                if (!Directory.Exists(uploadPath))
+                {
+                    Directory.CreateDirectory(uploadPath);
+                }
+
+                var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+                var filePath = Path.Combine(uploadPath, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+
+                dto.ImageName = uniqueFileName;
+            }
 
             await _projectService.CreateProjectAsync(dto);
 
             return RedirectToAction("Index", "Project");
-
         }
+
 
         [HttpGet]
         public async Task<IActionResult> Edit(Guid id)
@@ -80,9 +96,15 @@ namespace MyPortfolio.Controllers
 
             var model = new ProjectViewModel()
             {    Id=project.Id,
-                Title = project.Title,
-                Description=project.Description,
-                GithubUrl = project.GithubUrl
+                TitleFa = project.TitleFa,
+                TitleEn = project.TitleEn,
+
+                DescriptionFa = project.DescriptionFa,
+
+                DescriptionEn = project.DescriptionEn,
+
+                GithubUrl = project.GithubUrl,
+               ImageName = project.ImageName
 
 
             };
@@ -91,7 +113,7 @@ namespace MyPortfolio.Controllers
             return View(model);
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(ProjectViewModel vm)
+        public async Task<IActionResult> Edit(IFormFile imageFile,ProjectViewModel vm)
         {
             if (!ModelState.IsValid)
                 return View(vm);
@@ -99,12 +121,40 @@ namespace MyPortfolio.Controllers
             var dto = new ProjectDto()
             {
                 Id = vm.Id,
-                Title = vm.Title,
-                Description = vm.Description,
-                GithubUrl = vm.GithubUrl
+                TitleFa = vm.TitleFa,
+                TitleEn = vm.TitleEn,
+
+                DescriptionFa = vm.DescriptionFa,
+
+                DescriptionEn = vm.DescriptionEn,
+
+                GithubUrl = vm.GithubUrl,
+                ImageName = vm.ImageName
+
             };
 
+            if (imageFile != null && imageFile.Length > 0)
+            {
+                var uploadPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "project");
+
+                if (!Directory.Exists(uploadPath))
+                {
+                    Directory.CreateDirectory(uploadPath);
+                }
+
+                var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
+
+                var filePath = Path.Combine(uploadPath, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+                dto.ImageName = uniqueFileName;
+
+            }
             await _projectService.UpdateProjectAsync(dto);
+
 
             return RedirectToAction(nameof(Index));
         }

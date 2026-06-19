@@ -1,26 +1,28 @@
-﻿<div id="contact" class="custom-card">
-    <h3 class="mb-4 text-center">تماس با من</h3>
+﻿@using MyPortfolio.EndPoint_UI
+@using MyPortfolio.EndPoint_UI.Localization
+<div id="contact" class="custom-card" contact-section-wrapper>
+    <h3 class="mb-4 text-center">@Localizer["ContactTitle"]</h3>
 
     <form asp-action="CreateMessage" method="post">
         @Html.AntiForgeryToken()
 
         <div class="mb-3">
-            <label class="form-label">نام شما</label>
+            <label class="form-label">@Localizer["NameLabel"]</label>
             <input type="text" name="Name" class="form-control" style="border-radius: 10px;" required>
         </div>
 
         <div class="mb-3">
-            <label class="form-label">ایمیل</label>
+            <label class="form-label">@Localizer["EmailLabel"]</label>
             <input type="email" name="Email" class="form-control" style="border-radius: 10px;" required>
         </div>
 
         <div class="mb-3">
-            <label class="form-label">پیام</label>
+            <label class="form-label">@Localizer["MessageLabel"]</label>
             <textarea name="Message" class="form-control" rows="3" style="border-radius: 10px;" required></textarea>
         </div>
 
         <button type="submit" class="btn w-100" style="background: #8e214d; color: white; border-radius: 10px;">
-            ارسال پیام
+            @Localizer["SubmitButton"]
         </button>
     </form>
 </div>

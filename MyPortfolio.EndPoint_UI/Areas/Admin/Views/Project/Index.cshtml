@@ -39,8 +39,8 @@
                 @foreach (var project in Model.Items)
                 {
                     <tr>
-                        <td>@project.Title</td>
-                        <td>@project.Description</td>
+                        <td>@project.TitleFa</td>
+                        <td>@project.DescriptionFa</td>
                         <td>
                             @if (!string.IsNullOrEmpty(project.GithubUrl))
                             {

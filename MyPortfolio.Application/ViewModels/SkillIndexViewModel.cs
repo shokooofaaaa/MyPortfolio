@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyPortfolio.Application.ViewModels
 {
-   public class SkillIndexViewModel
+   public record SkillIndexViewModel
     {
       public  PagedListViewModel<SkillViewModel> Skills { get; set; }
 

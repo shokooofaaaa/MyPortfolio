@@ -2,26 +2,37 @@
 
 <h2>ایجاد پروژه جدید</h2>
 
-<form asp-area="Admin"  asp-action="Create" asp-controller="Project" method="post">
+<form asp-area="Admin" asp-action="Create" asp-controller="Project" method="post" enctype="multipart/form-data">
 
     @Html.AntiForgeryToken()
 
     <div class="mb-3">
-        <label asp-for="Title"></label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title"></span>
+        <label asp-for="TitleFa"></label>
+        <input asp-for="TitleFa" class="form-control" />
+        <span asp-validation-for="TitleFa"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="TitleEn"></label>
+        <input asp-for="TitleEn" class="form-control" />
+        <span asp-validation-for="TitleFa"></span>
     </div>
 
     <div class="mb-3">
-        <label asp-for="Description"></label>
-        <textarea asp-for="Description" class="form-control"></textarea>
+        <label asp-for="DescriptionFa"></label>
+        <textarea asp-for="DescriptionFa" class="form-control"></textarea>
     </div>
-
+    <div class="mb-3">
+        <label asp-for="DescriptionEn"></label>
+        <textarea asp-for="DescriptionEn" class="form-control"></textarea>
+    </div>
     <div class="mb-3">
         <label asp-for="GithubUrl"></label>
         <input asp-for="GithubUrl" class="form-control" />
     </div>
-
+    <div>
+        <label>انتخاب عکس :</label>
+        <input name="imageFile" type="file" />
+    </div>
     <button class="btn btn-success">
         ذخیره
     </button>

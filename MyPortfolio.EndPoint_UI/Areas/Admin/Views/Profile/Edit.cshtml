@@ -21,6 +21,16 @@
         <label asp-for="JobTitleFa">عنوان شغلی به فارسی</label>
         <input asp-for="JobTitleFa" type="text" />
     </div>
+    <div>
+        <label asp-for="DescriptionFa">توضیحات</label>
+        <textarea asp-for="DescriptionFa" rows="5" class="form-control"></textarea>
+        <span asp-validation-for="DescriptionFa"></span>
+    </div>
+    <div>
+        <label asp-for="DescriptionEn"> توضیحات به آلمانی</label>
+        <textarea asp-for="DescriptionEn" rows="5" class="form-control"></textarea>
+        <span asp-validation-for="DescriptionEn"></span>
+    </div>
 
     <div>
         <label>انتخاب عکس پروفایل:</label>

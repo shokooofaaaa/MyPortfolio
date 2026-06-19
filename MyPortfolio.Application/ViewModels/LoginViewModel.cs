@@ -2,7 +2,7 @@
 
 namespace MyPortfolio.EndPoint_UI.Models
 {
-    public class LoginViewModel
+    public record LoginViewModel
     {
         [Required(ErrorMessage = "نام کاربری الزامی است")]
         public string Username { get; set; }

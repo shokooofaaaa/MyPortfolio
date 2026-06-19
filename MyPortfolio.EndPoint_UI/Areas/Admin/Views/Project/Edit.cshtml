@@ -5,21 +5,33 @@
     <input type="hidden" asp-for="Id" />
 
     <div class="mb-3">
-        <label asp-for="Title" class="form-label"></label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger"></span>
+        <label asp-for="TitleFa"></label>
+        <input asp-for="TitleFa" class="form-control" />
+        <span asp-validation-for="TitleFa"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="TitleEn"></label>
+        <input asp-for="TitleEn" class="form-control" />
+        <span asp-validation-for="TitleFa"></span>
     </div>
 
     <div class="mb-3">
-        <label asp-for="Description" class="form-label"></label>
-        <textarea asp-for="Description" class="form-control"></textarea>
-        <span asp-validation-for="Description" class="text-danger"></span>
+        <label asp-for="DescriptionFa"></label>
+        <textarea asp-for="DescriptionFa" class="form-control"></textarea>
+    </div>
+    <div class="mb-3">
+        <label asp-for="DescriptionEn"></label>
+        <textarea asp-for="DescriptionEn" class="form-control"></textarea>
     </div>
 
     <div class="mb-3">
         <label asp-for="GithubUrl" class="form-label"></label>
         <input asp-for="GithubUrl" class="form-control" />
         <span asp-validation-for="GithubUrl" class="text-danger"></span>
+    </div>
+    <div>
+        <label>انتخاب عکس :</label>
+        <input name="imageFile" type="file" />
     </div>
 
     <button type="submit" class="btn btn-primary">ذخیره تغییرات</button>

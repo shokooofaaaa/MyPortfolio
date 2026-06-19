@@ -33,7 +33,9 @@ namespace MyPortfolio.EndPoint_UI.Areas.Admin.Controllers
                 FullNameEn = dto.FullNameEn,
                 JobTitleFa = dto.JobTitleFa,
                 JobTitleEn = dto.JobTitleEn,
-                ImageName = dto.ImageName
+                ImageName = dto.ImageName,
+                DescriptionFa=dto.DescriptionFa,
+                DescriptionEn=dto.DescriptionEn
             };
 
             return View(vm);

@@ -54,11 +54,19 @@ namespace MyPortfolio.EndPoint_UI.Controllers
                     FullNameEn = profileDto.FullNameEn,
                     JobTitleFa = profileDto.JobTitleFa,
                     JobTitleEn = profileDto.JobTitleEn,
-                    ImageName = profileDto.ImageName
+                    ImageName = profileDto.ImageName,
+                   DescriptionFa=profileDto.DescriptionFa,
+                   DescriptionEn=profileDto.DescriptionEn
                 },
               
 
-                 AboutDescription=aboutDto.DescriptionFa,
+                 AboutDescription= new AboutViewModel
+                 {
+
+                     DescriptionEn=aboutDto.DescriptionEn,
+                     DescriptionFa=aboutDto.DescriptionFa
+                 },
+                 
 
                 Skills = skills,
                 Projects = projects,

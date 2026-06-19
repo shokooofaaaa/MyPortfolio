@@ -1,8 +1,10 @@
-﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.LanguageViewModel>
+﻿@using MyPortfolio.EndPoint_UI
+@using MyPortfolio.EndPoint_UI.Localization
+@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.LanguageViewModel>
 
 
 <section id="languages" class="language-section">
-    <h3 class="section-title">زبان ها</h3>
+    <h3 class="section-title">@Localizer["languages"]</h3>
 
     <div class="language-grid">
         

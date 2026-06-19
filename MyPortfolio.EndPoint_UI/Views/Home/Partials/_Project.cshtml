@@ -1,76 +1,115 @@
-﻿@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.ProjectViewModel>
+﻿@using MyPortfolio.EndPoint_UI
+@using MyPortfolio.EndPoint_UI.Localization
+@using System.Globalization
+@model MyPortfolio.Application.ViewModels.PagedListViewModel<MyPortfolio.Application.ViewModels.ProjectViewModel>
+@{
+    var isFa = CultureInfo.CurrentCulture.Name.StartsWith("fa");
+}
+<section id="projects" class="projects-section py-">
+    <div class="container-fluid" style="max-width: 1140px;">
+        <h3 class="section-title text-center mb-4">@Localizer["ProjectTitle"]</h3>
 
-<section class="projects-section" dir="rtl">
-    <h3 class="section-title">پروژه های من</h3>
+        @if (Model.Items != null && Model.Items.Any())
+        {
+            
+            <div id="projectsCarouselDesktop" class="carousel slide d-none d-md-block" data-bs-ride="false">
+                <div class="carousel-inner">
+                    @for (int i = 0; i < Model.Items.Count; i += 3)
+                    {
+                        <div class="carousel-item @(i == 0 ? "active" : "")">
+                            <div class="desktop-row">
+                                @for (int j = i; j < i + 3 && j < Model.Items.Count; j++)
+                                {
+                                    var project = Model.Items[j];
+                                    <div class="project-col">
+                                        <div class="project-card">
+                                            @if (!string.IsNullOrEmpty(project.ImageName))
+                                            {
+                                                <div class="project-img-wrapper">
+                                                    <img src="~/images/project/@project.ImageName" alt="@(isFa ? project.TitleFa : project.TitleEn)" class="project-img" />
+                                                </div>
+                                            }
 
-    <div class="slider-container">
+                                            <div class="project-content">
+                                                <h5 class="project-title">@(isFa ? project.TitleFa : project.TitleEn)</h5>
 
-        <button class="slider-btn next-btn" onclick="moveSlider(1)">&#10094;</button>
-
-        <div class="projects-grid" id="projectsGrid">
-            @foreach (var project in Model.Items)
-            {
-                <div class="project-card">
-                    <div class="project-title">@project.Title</div>
-                    <div class="project-description truncated">@project.Description</div>
-                    <span class="read-more-btn">... نمایش بیشتر</span>
-                    <a href="@project.GithubUrl" target="_blank" class="project-btn">مشاهده</a>
+                                                <p class="project-description truncated">@(isFa ? project.DescriptionFa : project.DescriptionEn)</p>
+                                            </div>
+                                            <div class="project-footer text-center">
+                                                <span class="read-more-btn" onclick="toggleText(this)">@Localizer["ReadMore"]</span>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+                    }
                 </div>
-                
-            }
-        </div>
-        <button class="slider-btn prev-btn" onclick="moveSlider(-1)">&#10095;</button>
-        
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarouselDesktop" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarouselDesktop" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
 
+            
+            <div id="projectsCarouselMobile" class="carousel slide d-block d-md-none" data-bs-ride="false">
+                <div class="carousel-inner">
+                    @for (int i = 0; i < Model.Items.Count; i++)
+                    {
+                        var project = Model.Items[i];
+                        <div class="carousel-item @(i == 0 ? "active" : "")">
+                            <div class="mobile-card-container">
+                                <div class="project-card">
+                                    @if (!string.IsNullOrEmpty(project.ImageName))
+                                    {
+                                        <div class="project-img-wrapper">
+                                            <img src="~/images/project/@project.ImageName" alt="@(isFa ? project.TitleFa : project.TitleEn)" class="project-img" />
+                                        </div>
+                                    }
+                                    <div class="project-content">
+                                        <h5 class="project-title">@(isFa ? project.TitleFa : project.TitleEn)</h5>
+                                        <p class="project-description truncated">@(isFa ? project.DescriptionFa : project.DescriptionEn)</p>
+                                    </div>
+                                    <div class="project-footer text-center">
+                                        <span class="read-more-btn" onclick="toggleText(this)">@Localizer["ReadMore"]</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectsCarouselMobile" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#projectsCarouselMobile" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        }
     </div>
 </section>
 
-
-
-
-
-
-
-
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const btns = document.querySelectorAll(".read-more-btn");
+      function toggleText(btn) {
+        console.log("clicked");
 
-        btns.forEach(btn => {
-            btn.addEventListener("click", () => {
-                const desc = btn.previousElementSibling;
-                if (desc.classList.contains("truncated")) {
-                    desc.classList.remove("truncated");
-                    btn.textContent = "بستن";
-                } else {
-                    desc.classList.add("truncated");
-                    btn.textContent = "... نمایش بیشتر";
-                }
-            });
-        });
-    });
-                function moveSlider(direction) {
-        const grid = document.getElementById("projectsGrid");
-        const card = grid.querySelector(".project-card");
-        if (!grid || !card) return;
+        const card = btn.closest('.project-card');
+        const desc = card.querySelector('.project-description');
 
-        const cardStyles = getComputedStyle(card);
-        const cardWidth = card.offsetWidth +
-            parseFloat(cardStyles.marginLeft) +
-            parseFloat(cardStyles.marginRight);
-
-        const gridStyles = getComputedStyle(grid);
-        const gap = parseFloat(gridStyles.columnGap) || parseFloat(gridStyles.gap) || 0;
-
-        const slideWidth = cardWidth + gap;
-
-        grid.scrollBy({
-            left: direction * slideWidth,
-            behavior: "smooth"
-        });
+        if (desc.classList.contains('truncated')) {
+            desc.classList.remove('truncated');
+            btn.innerText = "@Localizer["ReadLess"]";
+        } else {
+            desc.classList.add('truncated');
+            btn.innerText = "@Localizer["ReadMore"]";
+        }
     }
-</script>
 
+</script>
 
 
 

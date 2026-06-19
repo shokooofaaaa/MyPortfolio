@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyPortfolio.Application.ViewModels
 {
-    public class AboutViewModel
+    public record AboutViewModel
     {
         public string DescriptionEn { get; set; }
         public string DescriptionFa { get; set; }

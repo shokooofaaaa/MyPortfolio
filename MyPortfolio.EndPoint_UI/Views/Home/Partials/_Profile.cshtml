@@ -1,7 +1,12 @@
-﻿@model MyPortfolio.Application.ViewModels.ProfileViewModel
-
+﻿@using MyPortfolio.EndPoint_UI
+@using MyPortfolio.EndPoint_UI.Localization
+@using System.Globalization
+@model MyPortfolio.Application.ViewModels.ProfileViewModel
+@{
+    var isFa = CultureInfo.CurrentCulture.Name.StartsWith("fa");
+}
 <main>
-<div class="main-container">
+    <div class="main-container-profile">
 
     <div class="avatar-wrapper">
         @if (!string.IsNullOrEmpty(Model.ImageName))
@@ -18,10 +23,33 @@
     
 
 <div class="profile-info">
-    <h1 class="full-name"> @Model.FullNameFa </h1>
-    <h3 class="job-title">@Model.JobTitleFa</h3>
-  
+            <h1 class="full-name"> @(isFa ? Model.FullNameFa : Model.FullNameEn) </h1>
+            <h3 class="job-title">@(isFa ? Model.JobTitleFa : Model.JobTitleEn)</h3>
+            <p class="Description"> @(isFa ? Model.DescriptionFa : Model.DescriptionEn)</p>
+            <div class="skills-tags">
+                <span class="tag-item"><img src="~/images/icons/csharp.svg" /> C#</span>
+                <span class="tag-item"><img src="~/images/icons/aspnet.svg" /> ASP.NET Core</span>
+                <span class="tag-item"><img src="~/images/icons/sql.svg" /> SQL Server</span>
+                <span class="tag-item"><img src="~/images/icons/efcore.svg" /> EF Core</span>
+                <span class="tag-item"><img src="~/images/icons/mvc.svg" /> MVC</span>
+                <span class="tag-item"><img src="~/images/icons/git.svg" /> Git</span>
+            </div>
+
+            <div class="profile-actions">
+                <a href="https://github.com/shokooofaaaa" class="btn-filled-maroon">
+                    @SharedLocalizer["Btn_ViewGitHub"]
+                </a>
+                <a href="#contact" class="btn-outline-custom">
+                    @SharedLocalizer["Btn_ContactMe"]
+
+                </a>
+                <a href="https://www.linkedin.com/in/shokoofa-tagharobian-6548762b5/" class="btn-filled-maroon">
+                    @SharedLocalizer["Btn_Linkedin"]
+                </a>
+
+            </div>
+        </div>
     </div>
-</div>
+
 </main>
 
