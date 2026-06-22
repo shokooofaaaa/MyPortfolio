@@ -53,7 +53,7 @@ I am a **.NET Backend Developer** focused on clean code and professional enginee
 - 🌐 **Portfolio:** [tagharobianshokoofa.ir](https://tagharobianshokoofa.ir)
 
 ---
-*Developed with ❤️ by Shokoufa Taghbagian*
+*Developed with ❤️ by Shokoufa Tagharobian
 
 
 ---
